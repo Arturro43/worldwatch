@@ -1,25 +1,13 @@
 {
-  "generated_utc": "2026-11-24T20:01Z",
+  "generated_utc": "2026-11-24T22:01Z",
   "version": 4.0,
   "list": "brak",
   "plan": null,
-  "calls": 9,
+  "calls": 4,
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
-  "searches": {"dow_rcb": 0, "mon_straz": 1, "pol_pap": 2, "luk_fay": 1, "lukasz": 0, "dow": 0, "rcb": 0, "mon": 0, "pol": 0},
+  "searches": {"dow_rcb": 0, "mon_straz": 0, "pol_pap": 1, "luk_fay": 1},
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2125310871555719363",
-      "handle": "Straz_Graniczna",
-      "posted_utc": "2026-11-24T19:29Z",
-      "text": "Dwóch obywateli Ukrainy opuściło Polskę po naruszeniu polskiego porządku prawnego. Funkcjonariusze Warmińsko-Mazurskiego Oddziału Straży Granicznej doprowadzili ich do przejścia granicznego w Medyce i przekazali stronie ukraińskiej. Jeden z mężczyzn prowadził samochód w stanie nietrzeźwości, łamiąc sądowy zakaz prowadzenia pojazdów. Drugi odbył 6-miesięczną karę pozbawienia wolności za współudział w pobiciu.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "deportacja-ukraincow-medyka"
-    }
-  ]
+  "items": []
 }
