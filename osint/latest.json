@@ -1,23 +1,11 @@
 {
-  "generated_utc": "2026-11-25T15:09Z",
+  "generated_utc": "2026-11-25T16:07Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"officials": 1, "media": 10, "dowoper": 0, "rcb": 0, "sg": 0, "policja": 0, "pap": 2, "mon": 1, "rmf": 3, "tvn": 3},
+  "searches": {"officials": 0, "media": 10, "rmf24pl": 8, "tvn24": 6, "pap": 1},
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2125592479949099230",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-25T14:08Z",
-      "text": "Strefa zakazu lotów przy wschodniej granicy Polski? Cezary Tomczyk o szczegółach",
-      "category": "lotnictwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "wschodnia Polska",
-      "cluster": "strefa-zakazu-lotow-wschod"
-    }
-  ]
+  "items": []
 }
