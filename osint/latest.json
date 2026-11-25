@@ -1,90 +1,13 @@
 {
-  "generated_utc": "2026-11-25T19:10Z",
+  "generated_utc": "2026-11-25T20:01Z",
   "version": 4.0,
   "list": "brak",
+  "plan": null,
+  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
-  "searches": {"officials": 0, "media_group": 10, "PAP": 3, "rmf_tvn": 10, "rmf24pl": 10, "tvn24": 4},
+  "searches": {"DowOperSZ_RCB_RP": 0, "MON_GOV_PL_Straz_Graniczna": 1, "PolskaPolicja_PAPinformacje": 1, "LukaszBok_FaytuksNetwork": 1},
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2125667147850412490",
-      "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T19:05Z",
-      "text": "Wiceminister obrony narodowej Cezary Tomczyk poinformował, że na wschodzie kraju zostanie wprowadzona strefa zakazu lotów. „Chcemy, by w końcu grudnia lub na początku stycznia weszło w życie rozporządzenie” - przekazał.",
-      "category": "lotnictwo",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "wschodnia Polska",
-      "media": "wideo",
-      "cluster": "strefa-zakazu-lotow-wschod"
-    },
-    {
-      "post_id": "2125665459639132247",
-      "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T18:58Z",
-      "text": "RT @Rozmowa_RMF: Popołudniowa #RozmowaRMF! Polska strona zwróciła się do NATO z propozycją zestrzeliwania rakiet i dronów nad Ukrainą.",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Polska",
-      "cluster": "propozycja-zestrzeliwania-nad-ukraina"
-    },
-    {
-      "post_id": "2125663298020348098",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-25T18:49Z",
-      "text": "Prezydent Donald Trump sprawdza, czy Władimir Putin rzeczywiście jest gotowy do rozmów o zakończeniu wojny - ocenił sekretarz generalny NATO Mark Rutte.",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "średnia"
-    },
-    {
-      "post_id": "2125662307552485784",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-25T18:46Z",
-      "text": "Rada Ministrów: funkcjonowanie TK zagrożone wstrzymaniem przez NBP zleceń płatniczych",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "tk-nbp-blokada"
-    },
-    {
-      "post_id": "2125660326347653411",
-      "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T18:38Z",
-      "text": "Funkcjonowanie TK zagrożone. Rząd reaguje na blokadę kont przez NBP",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Polska",
-      "cluster": "tk-nbp-blokada",
-      "corroborated_by": ["PAPinformacje", "tvn24"]
-    },
-    {
-      "post_id": "2125657053767110968",
-      "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T18:25Z",
-      "text": "Dramat w USA! Samolot runął na ulicę 800 metrów od lotniska",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "USA",
-      "media": "wideo"
-    },
-    {
-      "post_id": "2125651704230396226",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-25T18:03Z",
-      "text": "RT @TVN24BiS: #PILNE | Jest ruch rządu w sprawie konta Trybunału Konstytucyjnego.",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Polska",
-      "cluster": "tk-nbp-blokada",
-      "corroborated_by": ["PAPinformacje", "RMF24pl"]
-    }
-  ]
+  "items": []
 }
