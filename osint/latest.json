@@ -1,24 +1,69 @@
 {
-  "generated_utc": "2026-11-25T18:01Z",
+  "generated_utc": "2026-11-25T18:05Z",
   "version": 4.0,
   "list": "brak",
-  "calls": 4,
+  "calls": 8,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"DowOperSZ_RCB": 0, "MON_Straz": 1, "Policja_PAP": 3, "Bok_Faytuks": 1},
+  "searches": {"official_group": 1, "media_group": 10, "PAP_Policja": 7, "RMF_tvn": 7, "Dow_RCB": 0},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125636198215373103",
-      "handle": "LukaszBok",
-      "posted_utc": "2026-11-25T17:02Z",
-      "text": "Mężczyzna podpalił się naprzeciwko Pałacu Prezydenckiego w Warszawie.",
+      "post_id": "2125649511594803494",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-25T17:55Z",
+      "text": "Podpalił się przed Ministerstwem Kultury. Świadkowie ruszyli z pomocą",
       "category": "bezpieczeństwo",
       "urgency_hint": "ważne",
       "confidence": "średnia",
       "location": "Warszawa",
-      "cluster": "samopodpalenie-palac-prezydencki"
+      "media": "wideo",
+      "cluster": "samopodpalenie-ministerstwo-kultury"
+    },
+    {
+      "post_id": "2125648487568023869",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-25T17:51Z",
+      "text": "Rada Ministrów: funkcjonowanie TK zagrożone wstrzymaniem przez NBP zleceń płatniczych; konieczne podjęcie przez premiera i szefa MF działań w celu ochrony interesów Skarbu Państwa. (PAP) #PAPinformacje",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo"
+    },
+    {
+      "post_id": "2125645746951131517",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-25T17:40Z",
+      "text": "Groźne sceny na torze wyścigowym. Wiatr rozbijał okna i niszczył budynek",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "średnia",
+      "media": "wideo"
+    },
+    {
+      "post_id": "2125644064511176979",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-25T17:33Z",
+      "text": "Przedsiębiorcy prowadzący działalność na Rynku Głównym będą mogli zawiesić płatności lub otrzymają zwrot należności za okres, w którym nie mogli pracować z powodu ograniczeń wprowadzonych po zamachu z 7 listopada.",
+      "category": "gospodarka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Kraków",
+      "cluster": "pomoc-po-ataku-krakow"
+    },
+    {
+      "post_id": "2125633843189493989",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-25T16:52Z",
+      "text": "Kraków. Miasto pomoże przedsiębiorcom poszkodowanym po ataku na Rynku Głównym",
+      "category": "gospodarka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Kraków",
+      "cluster": "pomoc-po-ataku-krakow",
+      "corroborated_by": ["tvn24"]
     }
   ]
 }
