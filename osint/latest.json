@@ -1,11 +1,13 @@
 {
-  "generated_utc": "2026-11-25T20:10Z",
-  "version": 4.0,
+  "generated_utc": "2026-11-25T23:01Z",
+  "version": 4.2,
   "list": "brak",
-  "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "plan": null,
+  "calls": 4,
+  "groups_checked": ["G_DowOper_RCB", "G_MON_Straz", "G_Policja_PAP", "G_Lukasz_Faytuks"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
-  "searches": {"official_group": 1, "media_group": 9, "rmf24pl": 10, "tvn24": 6, "PAPinformacje": 1, "Straz_Graniczna": 1},
+  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 2, "G_Lukasz_Faytuks": 1},
   "error": "brak listy",
-  "items": [{"post_id": "2125679353506009393", "handle": "tvn24", "posted_utc": "2026-11-25T19:53Z", "text": "RT @tvnwarszawa: Przy Ministerstwie Kultury i Dziedzictwa Narodowego, naprzeciwko Pa\u0142acu Prezydenckiego, podpali\u0142 si\u0119 m\u0119\u017cczyzna. Na miejscu\u2026", "category": "bezpiecze\u0144stwo", "urgency_hint": "wa\u017cne", "confidence": "wysoka", "location": "Warszawa", "cluster": "samopodpalenie-warszawa"}]
+  "items": [{"post_id": "2125713295898444123", "handle": "PAPinformacje", "posted_utc": "2026-11-25T22:08Z", "text": "Stała baza wojsk USA w Polsce. Wiceminister Zalewski o tym, kiedy zapadnie decyzja ↧ #PAPInformacje https://www.pap.pl/aktualnosci/stala-baza-wojsk-usa-w-polsce-wiceminister-zalewski-o-tym-kiedy-zapadnie-decyzja", "category": "bezpieczeństwo", "urgency_hint": "dziennik", "confidence": "wysoka", "via": "G_Policja_PAP", "location": "Polska", "cluster": "baza-usa-polska"}]
 }
