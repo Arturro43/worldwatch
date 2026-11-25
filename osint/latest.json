@@ -1,69 +1,90 @@
 {
-  "generated_utc": "2026-11-25T18:05Z",
+  "generated_utc": "2026-11-25T19:10Z",
   "version": 4.0,
   "list": "brak",
-  "calls": 8,
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"official_group": 1, "media_group": 10, "PAP_Policja": 7, "RMF_tvn": 7, "Dow_RCB": 0},
+  "searches": {"officials": 0, "media_group": 10, "PAP": 3, "rmf_tvn": 10, "rmf24pl": 10, "tvn24": 4},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125649511594803494",
+      "post_id": "2125667147850412490",
       "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T17:55Z",
-      "text": "Podpalił się przed Ministerstwem Kultury. Świadkowie ruszyli z pomocą",
-      "category": "bezpieczeństwo",
+      "posted_utc": "2026-11-25T19:05Z",
+      "text": "Wiceminister obrony narodowej Cezary Tomczyk poinformował, że na wschodzie kraju zostanie wprowadzona strefa zakazu lotów. „Chcemy, by w końcu grudnia lub na początku stycznia weszło w życie rozporządzenie” - przekazał.",
+      "category": "lotnictwo",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Warszawa",
+      "location": "wschodnia Polska",
       "media": "wideo",
-      "cluster": "samopodpalenie-ministerstwo-kultury"
+      "cluster": "strefa-zakazu-lotow-wschod"
     },
     {
-      "post_id": "2125648487568023869",
+      "post_id": "2125665459639132247",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-25T18:58Z",
+      "text": "RT @Rozmowa_RMF: Popołudniowa #RozmowaRMF! Polska strona zwróciła się do NATO z propozycją zestrzeliwania rakiet i dronów nad Ukrainą.",
+      "category": "wojna",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Polska",
+      "cluster": "propozycja-zestrzeliwania-nad-ukraina"
+    },
+    {
+      "post_id": "2125663298020348098",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-25T18:49Z",
+      "text": "Prezydent Donald Trump sprawdza, czy Władimir Putin rzeczywiście jest gotowy do rozmów o zakończeniu wojny - ocenił sekretarz generalny NATO Mark Rutte.",
+      "category": "wojna",
+      "urgency_hint": "ważne",
+      "confidence": "średnia"
+    },
+    {
+      "post_id": "2125662307552485784",
       "handle": "PAPinformacje",
-      "posted_utc": "2026-11-25T17:51Z",
-      "text": "Rada Ministrów: funkcjonowanie TK zagrożone wstrzymaniem przez NBP zleceń płatniczych; konieczne podjęcie przez premiera i szefa MF działań w celu ochrony interesów Skarbu Państwa. (PAP) #PAPinformacje",
+      "posted_utc": "2026-11-25T18:46Z",
+      "text": "Rada Ministrów: funkcjonowanie TK zagrożone wstrzymaniem przez NBP zleceń płatniczych",
       "category": "polityka",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
       "location": "Polska",
-      "media": "wideo"
+      "cluster": "tk-nbp-blokada"
     },
     {
-      "post_id": "2125645746951131517",
+      "post_id": "2125660326347653411",
       "handle": "RMF24pl",
-      "posted_utc": "2026-11-25T17:40Z",
-      "text": "Groźne sceny na torze wyścigowym. Wiatr rozbijał okna i niszczył budynek",
+      "posted_utc": "2026-11-25T18:38Z",
+      "text": "Funkcjonowanie TK zagrożone. Rząd reaguje na blokadę kont przez NBP",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Polska",
+      "cluster": "tk-nbp-blokada",
+      "corroborated_by": ["PAPinformacje", "tvn24"]
+    },
+    {
+      "post_id": "2125657053767110968",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-25T18:25Z",
+      "text": "Dramat w USA! Samolot runął na ulicę 800 metrów od lotniska",
       "category": "katastrofa",
       "urgency_hint": "dziennik",
       "confidence": "średnia",
+      "location": "USA",
       "media": "wideo"
     },
     {
-      "post_id": "2125644064511176979",
+      "post_id": "2125651704230396226",
       "handle": "tvn24",
-      "posted_utc": "2026-11-25T17:33Z",
-      "text": "Przedsiębiorcy prowadzący działalność na Rynku Głównym będą mogli zawiesić płatności lub otrzymają zwrot należności za okres, w którym nie mogli pracować z powodu ograniczeń wprowadzonych po zamachu z 7 listopada.",
-      "category": "gospodarka",
+      "posted_utc": "2026-11-25T18:03Z",
+      "text": "RT @TVN24BiS: #PILNE | Jest ruch rządu w sprawie konta Trybunału Konstytucyjnego.",
+      "category": "polityka",
       "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Kraków",
-      "cluster": "pomoc-po-ataku-krakow"
-    },
-    {
-      "post_id": "2125633843189493989",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-25T16:52Z",
-      "text": "Kraków. Miasto pomoże przedsiębiorcom poszkodowanym po ataku na Rynku Głównym",
-      "category": "gospodarka",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Kraków",
-      "cluster": "pomoc-po-ataku-krakow",
-      "corroborated_by": ["tvn24"]
+      "confidence": "średnia",
+      "location": "Polska",
+      "cluster": "tk-nbp-blokada",
+      "corroborated_by": ["PAPinformacje", "RMF24pl"]
     }
   ]
 }
