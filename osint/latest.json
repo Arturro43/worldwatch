@@ -1,13 +1,11 @@
 {
-  "generated_utc": "2026-11-25T20:01Z",
+  "generated_utc": "2026-11-25T20:10Z",
   "version": 4.0,
   "list": "brak",
-  "plan": null,
-  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"DowOperSZ_RCB_RP": 0, "MON_GOV_PL_Straz_Graniczna": 1, "PolskaPolicja_PAPinformacje": 1, "LukaszBok_FaytuksNetwork": 1},
+  "searches": {"official_group": 1, "media_group": 9, "rmf24pl": 10, "tvn24": 6, "PAPinformacje": 1, "Straz_Graniczna": 1},
   "error": "brak listy",
-  "items": []
+  "items": [{"post_id": "2125679353506009393", "handle": "tvn24", "posted_utc": "2026-11-25T19:53Z", "text": "RT @tvnwarszawa: Przy Ministerstwie Kultury i Dziedzictwa Narodowego, naprzeciwko Pa\u0142acu Prezydenckiego, podpali\u0142 si\u0119 m\u0119\u017cczyzna. Na miejscu\u2026", "category": "bezpiecze\u0144stwo", "urgency_hint": "wa\u017cne", "confidence": "wysoka", "location": "Warszawa", "cluster": "samopodpalenie-warszawa"}]
 }
