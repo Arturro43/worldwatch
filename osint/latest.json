@@ -7,5 +7,29 @@
   "handles_not_checked": [],
   "searches": {"officials": 0, "media": 10, "rmf24pl": 8, "tvn24": 6, "pap": 1},
   "error": "brak listy",
-  "items": []
+  "items": [
+    {
+      "post_id": "2125620724492607955",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-25T16:00Z",
+      "text": "Awantura, grozby i strzaly. Klient stacji powstrzymal 38-latka",
+      "category": "bezpieczenstwo",
+      "urgency_hint": "wazne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "strzaly-stacja-paliw"
+    },
+    {
+      "post_id": "2125616774649631031",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-25T15:45Z",
+      "text": "Cyberatak na Deichmann. Spolka ostrzega klientow",
+      "category": "cyber",
+      "urgency_hint": "wazne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "cluster": "cyberatak-deichmann"
+    }
+  ]
 }
