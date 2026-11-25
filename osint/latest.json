@@ -1,34 +1,43 @@
 {
-  "generated_utc": "2026-11-25T12:10Z",
+  "generated_utc": "2026-11-25T13:15Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"combined": 2, "officials_partial": 4, "media": 2, "pap": 3, "tvn": 3, "rcb": 0, "policja": 1},
+  "searches": {"fallback_combined": 10, "officials_partial": 7, "media_group": 10, "pap_police": 4, "rmf_tvn": 10, "dowoper": 0, "rcb": 0, "sg": 0},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125562687207710734",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-25T12:10Z",
-      "text": "Do Polski nadci\u0105gaj\u0105 \u015bnie\u017cyce i silne mrozy. Ju\u017c w czwartek i pi\u0105tek w wielu regionach kraju pojawi\u0105 si\u0119 intensywne opady \u015bniegu, kt\u00f3re miejscami przejd\u0105 w \u015bnie\u017cyce - prognozuje IMGW. Najtrudniejsza sytuacja b\u0119dzie na po\u0142udniu Polski, gdzie pokrywa \u015bnie\u017cna mo\u017ce zwi\u0119kszy\u0107 si\u0119 nawet o 15-20 cm.",
-      "category": "bezpiecze\u0144stwo",
+      "post_id": "2125578564305367172",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-25T13:13Z",
+      "text": "Tomczyk: potrzebna strefa zakazu lot\u00f3w na wschodzie kraju oddalona od granicy o kilkana\u015bcie, kilkadziesi\u0105t kilometr\u00f3w; chcemy, by w ko\u0144cu grudnia lub na pocz\u0105tku stycznia wesz\u0142o w \u017cycie rozporz\u0105dzenie. (PAP)",
+      "category": "lotnictwo",
       "urgency_hint": "wa\u017cne",
       "confidence": "wysoka",
-      "location": "Polska",
+      "location": "wschodnia Polska",
       "media": "wideo"
     },
     {
-      "post_id": "2125544627641958621",
-      "handle": "Straz_Graniczna",
-      "posted_utc": "2026-11-25T10:58Z",
-      "text": "Dwie osoby poszukiwane przez wymiar sprawiedliwo\u015bci zatrzymali funkcjonariusze \u015al\u0105skiego Oddzia\u0142u Stra\u017cy Granicznej na lotnisku w Katowicach-Pyrzowicach. 46-letni obywatel Polski mia\u0142 do odbycia 47 dni wi\u0119zienia za nieuiszczon\u0105 grzywn\u0119. Drugi m\u0119\u017cczyzna, kt\u00f3ry przylecia\u0142 z Londynu, by\u0142 poszukiwany do odbycia 3 miesi\u0119cy kary pozbawienia wolno\u015bci za uszkodzenie mienia. Obaj zostali zatrzymani i osadzeni.",
-      "category": "bezpiecze\u0144stwo",
-      "urgency_hint": "dziennik",
+      "post_id": "2125577420485132355",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-25T13:08Z",
+      "text": "Po\u017car hali produkcyjnej w Nowinach",
+      "category": "katastrofa",
+      "urgency_hint": "wa\u017cne",
       "confidence": "wysoka",
-      "location": "Katowice",
-      "media": "zdj\u0119cie"
+      "location": "Nowiny"
+    },
+    {
+      "post_id": "2125569192707399997",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-25T12:36Z",
+      "text": "Pi\u0119\u0107 rosyjskich samolot\u00f3w trafionych. Du\u017cy sukces Ukrai\u0144c\u00f3w.",
+      "category": "wojna",
+      "urgency_hint": "wa\u017cne",
+      "confidence": "\u015brednia",
+      "location": "Ukraina"
     }
   ]
 }
