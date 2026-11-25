@@ -1,13 +1,56 @@
 {
-  "generated_utc": "2026-11-25T00:02Z",
+  "generated_utc": "2026-11-25T10:05Z",
   "version": 4.0,
   "list": "brak",
-  "plan": null,
-  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"dow_rcb": 0, "mon_straz": 0, "pol_pap": 0, "luk_fay": 3},
+  "searches": {"officials": 4, "media": 10, "pol_pap": 6, "rmf_tvn": 10},
   "error": "brak listy",
-  "items": []
+  "items": [
+    {
+      "post_id": "2125521306237931707",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-25T09:25Z",
+      "text": "Prokuratura potwierdziła autentyczność nagrania z ataku w centrum Krakowa, na którym widać, jak zamachowiec oddaje serię strzałów w kierunku dziecka",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Kraków",
+      "cluster": "atak-krakow"
+    },
+    {
+      "post_id": "2125508404638548158",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-25T08:34Z",
+      "text": "24 listopada podczas tymczasowego przywrócenia kontroli granicznej na granicy z Litwą: skontrolowano ponad 3,7 tys. osób, ponad 2,4 tys. środków transportu, zatrzymano 1 osobę, odmówiono wjazdu 1 osobie. #BezpiecznaGranica",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "granica z Litwą",
+      "media": "zdjęcie"
+    },
+    {
+      "post_id": "2125505856884129913",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-25T08:24Z",
+      "text": "24 listopada podczas tymczasowego przywrócenia kontroli granicznej na granicy z Niemcami: skontrolowano ponad 1,7 tys. osób, ponad 700 środków transportu. #BezpiecznaGranica",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "granica z Niemcami",
+      "media": "zdjęcie"
+    },
+    {
+      "post_id": "2125504309039444221",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-25T08:18Z",
+      "text": "24 listopada na granicy z Białorusią nie odnotowano prób nielegalnego przedostania się do Polski. #BezpiecznaGranica",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "granica z Białorusią",
+      "media": "zdjęcie"
+    }
+  ]
 }
