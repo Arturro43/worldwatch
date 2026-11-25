@@ -1,35 +1,35 @@
 {
-  "generated_utc": "2026-11-25T16:07Z",
+  "generated_utc": "2026-11-25T17:10Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"officials": 0, "media": 10, "rmf24pl": 8, "tvn24": 6, "pap": 1},
+  "searches": {"officials": 2, "pap": 4, "rmf24pl": 10, "tvn24": 5},
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2125633843189493989",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-25T16:52Z",
+      "text": "Krak\u00f3w. Miasto pomo\u017ce przedsi\u0119biorcom poszkodowanym po ataku na Rynku G\u0142\u00f3wnym",
+      "category": "bezpiecze\u0144stwo",
+      "urgency_hint": "wa\u017cne",
+      "confidence": "wysoka",
+      "location": "Krak\u00f3w",
+      "cluster": "atak-rynek-krakow"
+    },
     {
       "post_id": "2125620724492607955",
       "handle": "rmf24pl",
       "posted_utc": "2026-11-25T16:00Z",
-      "text": "Awantura, grozby i strzaly. Klient stacji powstrzymal 38-latka",
-      "category": "bezpieczenstwo",
-      "urgency_hint": "wazne",
+      "text": "Awantura, gro\u017aby i strza\u0142y. Klient stacji powstrzyma\u0142 38-latka",
+      "category": "bezpiecze\u0144stwo",
+      "urgency_hint": "wa\u017cne",
       "confidence": "wysoka",
       "location": "Polska",
       "media": "wideo",
       "cluster": "strzaly-stacja-paliw"
-    },
-    {
-      "post_id": "2125616774649631031",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-25T15:45Z",
-      "text": "Cyberatak na Deichmann. Spolka ostrzega klientow",
-      "category": "cyber",
-      "urgency_hint": "wazne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "cyberatak-deichmann"
     }
   ]
 }
