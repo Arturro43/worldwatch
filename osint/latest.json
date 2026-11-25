@@ -1,43 +1,35 @@
 {
-  "generated_utc": "2026-11-25T13:15Z",
+  "generated_utc": "2026-11-25T14:10Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"fallback_combined": 10, "officials_partial": 7, "media_group": 10, "pap_police": 4, "rmf_tvn": 10, "dowoper": 0, "rcb": 0, "sg": 0},
+  "searches": {"officials_group": 4, "media_group": 10, "dowoper": 0, "rcb": 0, "sg": 0, "policja": 1, "pap": 4, "nofly": 4},
   "error": "brak listy",
   "items": [
     {
       "post_id": "2125578564305367172",
       "handle": "PAPinformacje",
       "posted_utc": "2026-11-25T13:13Z",
-      "text": "Tomczyk: potrzebna strefa zakazu lot\u00f3w na wschodzie kraju oddalona od granicy o kilkana\u015bcie, kilkadziesi\u0105t kilometr\u00f3w; chcemy, by w ko\u0144cu grudnia lub na pocz\u0105tku stycznia wesz\u0142o w \u017cycie rozporz\u0105dzenie. (PAP)",
+      "text": "Tomczyk: potrzebna strefa zakazu lotów na wschodzie kraju oddalona od granicy o kilkanaście, kilkadziesiąt kilometrów; chcemy, by w końcu grudnia lub na początku stycznia weszło w życie rozporządzenie. (PAP)",
       "category": "lotnictwo",
-      "urgency_hint": "wa\u017cne",
+      "urgency_hint": "ważne",
       "confidence": "wysoka",
       "location": "wschodnia Polska",
-      "media": "wideo"
+      "cluster": "strefa-zakazu-lotow-wschod",
+      "corroborated_by": ["tvn24", "rmf24pl"]
     },
     {
-      "post_id": "2125577420485132355",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-25T13:08Z",
-      "text": "Po\u017car hali produkcyjnej w Nowinach",
-      "category": "katastrofa",
-      "urgency_hint": "wa\u017cne",
+      "post_id": "2125592479949099230",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-25T14:08Z",
+      "text": "Strefa zakazu lotów przy wschodniej granicy Polski? Cezary Tomczyk o szczegółach",
+      "category": "lotnictwo",
+      "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Nowiny"
-    },
-    {
-      "post_id": "2125569192707399997",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-25T12:36Z",
-      "text": "Pi\u0119\u0107 rosyjskich samolot\u00f3w trafionych. Du\u017cy sukces Ukrai\u0144c\u00f3w.",
-      "category": "wojna",
-      "urgency_hint": "wa\u017cne",
-      "confidence": "\u015brednia",
-      "location": "Ukraina"
+      "location": "wschodnia Polska",
+      "cluster": "strefa-zakazu-lotow-wschod"
     }
   ]
 }
