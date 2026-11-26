@@ -1,23 +1,56 @@
 {
-  "generated_utc": "2026-11-26T15:16Z",
+  "generated_utc": "2026-11-26T16:07Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"from_DowOperSZ": 0, "from_RCB_RP": 0, "from_MON_GOV_PL": 0, "from_Straz_Graniczna": 0, "from_PolskaPolicja": 0, "from_PAPinformacje": 6, "from_rmf24pl": 7, "from_tvn24": 5},
+  "searches": {"officials_group": 0, "media_group": 10, "from_PAPinformacje": 2, "from_rmf24pl": 10, "from_tvn24": 6},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125970599860138217",
+      "post_id": "2125983837821829286",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T16:03Z",
+      "text": "Zwłoki w kamenicy przy ul. Grzybowskiej w Warszawie. Sąd ogłosił wyroki ws. zabójstw",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Warszawa, Polska",
+      "cluster": "wyrok-zabojstwo-grzybowska"
+    },
+    {
+      "post_id": "2125983236467871849",
       "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T15:11Z",
-      "text": "Paszynian wyprasza rosyjskich pograniczników. „Bardzo jesteśmy wdzięczni, ale...”",
+      "posted_utc": "2026-11-26T16:01Z",
+      "text": "28-letni mężczyzna, który śmiertelnie pobił w środę w budynku przy ul. Stradomskiej w Wawrze 89-letnią kobietę, usłyszał zarzut zabójstwa",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Warszawa, Polska",
+      "cluster": "zabojstwo-wawer"
+    },
+    {
+      "post_id": "2125982382159454527",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T15:57Z",
+      "text": "Szef MON: do Polski dotarły kolejne dwa samoloty F-35",
+      "category": "lotnictwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "cluster": "f35-dostawa"
+    },
+    {
+      "post_id": "2125976591129813302",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T15:34Z",
+      "text": "Jest decyzja ws. Święczkowskiego. Sąd dyscyplinarny TK poinformował",
       "category": "polityka",
       "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Armenia",
-      "cluster": "armenia-rosyjscy-pogranicznicy"
+      "confidence": "wysoka",
+      "location": "Polska",
+      "cluster": "swieczkowski-przerwa"
     },
     {
       "post_id": "2125970209345515687",
@@ -29,51 +62,42 @@
       "confidence": "wysoka",
       "location": "Polska",
       "media": "wideo",
-      "cluster": "swieczkowski-przerwa-sluzbowa"
+      "cluster": "swieczkowski-przerwa",
+      "corroborated_by": ["rmf24pl"]
     },
     {
-      "post_id": "2125964931920986129",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T14:48Z",
-      "text": "Zimowa aura w Beskidach. Szlak na Babiej Górze zamknięty z powodu trudnych warunków",
-      "category": "inne",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Beskidy, Polska",
-      "cluster": "szlak-babia-gora-zamkniety"
-    },
-    {
-      "post_id": "2125964582711889981",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T14:47Z",
-      "text": "Zamach w Krakowie. Prokuratura przesłuchała około 250 świadków",
+      "post_id": "2125975847169569228",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T15:31Z",
+      "text": "Sąd Okręgowy w Warszawie skazał w czwartek na 30 lat więzienia Andriia S. i na 15 lat więzienia Iona B. Chodzi o sprawę zabójstw w opuszczonej kamienicy przy ul. Grzybowskiej",
       "category": "bezpieczeństwo",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Kraków, Polska",
-      "cluster": "zamach-krakow-sledztwo"
+      "location": "Warszawa, Polska",
+      "cluster": "wyrok-zabojstwo-grzybowska",
+      "corroborated_by": ["PAPinformacje"]
     },
     {
-      "post_id": "2125963357198926213",
+      "post_id": "2125974515800834542",
       "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T14:42Z",
-      "text": "Przywileje dla funkcjonariuszy. Senat przyjął ustawę o Karcie Rodziny Mundurowej",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Polska",
-      "cluster": "karta-rodziny-mundurowej"
-    },
-    {
-      "post_id": "2125957873096065472",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T14:20Z",
-      "text": "Czołowy rosyjski generał został aresztowany. Czystki trwają",
+      "posted_utc": "2026-11-26T15:26Z",
+      "text": "Irański dron uderzył w Kuwejcie. Włosi z Rheinmetall nie żyją",
       "category": "wojna",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Rosja",
-      "cluster": "aresztowanie-generala-rosja"
+      "location": "Kuwejt",
+      "cluster": "dron-kuwejt-rheinmetall"
+    },
+    {
+      "post_id": "2125970599860138217",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T15:11Z",
+      "text": "Paszynian wyprasza rosyjskich pograniczników. „Bardzo jesteśmy wdzięczni, ale...”",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Armenia",
+      "cluster": "armenia-rosyjscy-pogranicznicy"
     }
   ]
 }
