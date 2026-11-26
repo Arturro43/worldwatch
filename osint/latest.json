@@ -1,13 +1,82 @@
 {
-  "generated_utc": "2026-11-26T01:02Z",
-  "version": 4.2,
+  "generated_utc": "2026-11-26T10:06Z",
+  "version": 4.0,
   "list": "brak",
-  "plan": null,
-  "calls": 4,
-  "groups_checked": ["G_DowOper_RCB", "G_MON_Straz", "G_Policja_PAP", "G_Lukasz_Faytuks"],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "groups_checked": [],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 0, "G_Lukasz_Faytuks": 8},
+  "searches": {"fallback_group1": 1, "fallback_group2": 3, "fallback_group3": 2, "fallback_group4": 3, "from_DowOperSZ": 0, "from_PolskaPolicja": 3, "from_tvn24": 3, "from_rmf24pl": 3},
   "error": "brak listy",
-  "items": []
+  "items": [
+    {
+      "post_id": "2125893878486315049",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T10:06Z",
+      "text": "Ukraina: Korea Płn. wstrzymała pomoc wojskową dla Rosji, w tym dostawy rakiet balistycznych #PAPinformacje",
+      "category": "wojna",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Ukraina",
+      "cluster": "korea-pn-pomoc-rosja"
+    },
+    {
+      "post_id": "2125892421628084358",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T10:00Z",
+      "text": "Koniec listopada przynosi prawdziwą zimę. Na czwartek i piątek IMGW wydał ostrzeżenia I stopnia dla pięciu województw. Trzeba tam spodziewać się intensywnych opadów śniegu.",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "imgw-ostrzezenia-snieg"
+    },
+    {
+      "post_id": "2125889016893444233",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-26T09:46Z",
+      "text": "Funkcjonariusze Śląskiego Oddziału Straży Granicznej zatrzymali w Tychach 56-letniego obywatela Ukrainy poszukiwanego czerwoną notą Interpolu. Mężczyzna był ścigany na podstawie nakazu aresztowania wydanego przez ukraiński sąd w związku z podejrzeniem zgwałcenia osoby poniżej 14. roku życia.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Tychy, Polska",
+      "media": "zdjęcie",
+      "cluster": "aresztowanie-ukrainiec-interpol"
+    },
+    {
+      "post_id": "2125885567565009308",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-26T09:33Z",
+      "text": "Dwóch obywateli Ukrainy zostało pod konwojem doprowadzonych do granicy i przekazanych stronie ukraińskiej. To efekt działań funkcjonariuszy Karpackiego Oddziału Straży Granicznej wobec cudzoziemców, którzy wielokrotnie łamali polskie prawo.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "deportacja-ukraincy-karpaty"
+    },
+    {
+      "post_id": "2125884771154670009",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-26T09:30Z",
+      "text": "Funkcjonariusze Centralnego Biura Śledczego Policji rozbili w Łódzkiem zorganizowaną grupę przestępczą, która mogła wprowadzić do obrotu ponad 50 kilogramów narkotyków.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Łódzkie, Polska",
+      "cluster": "cbsp-narkotyki-lodz"
+    },
+    {
+      "post_id": "2125865258757537981",
+      "handle": "PolskaPolicja",
+      "posted_utc": "2026-11-26T08:12Z",
+      "text": "Prokuratura Europejska rozbiła międzynarodową zorganizowaną grupę przestępczą podejrzewaną o wyłudzenia podatku VAT na wielką skalę i pranie pieniędzy. Ponad 300 przeszukań w 12 krajach i 21 aresztowanych w Niemczech, Estonii i Belgii.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Europa",
+      "media": "zdjęcie",
+      "cluster": "prokuratura-eu-vat-fraud"
+    }
+  ]
 }
