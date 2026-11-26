@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T20:06Z",
+  "generated_utc": "2026-11-26T21:06Z",
   "version": 4.2,
   "list": "brak",
   "groups_checked": [],
@@ -9,11 +9,46 @@
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna OR from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
     "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 4,
-    "(from:rmf24pl OR from:tvn24)": 8
+    "(from:PolskaPolicja OR from:PAPinformacje)": 2,
+    "(from:rmf24pl OR from:tvn24)": 9
   },
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2126054690135695696",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T20:45Z",
+      "text": "DWÓCH KIEROWCÓW ZATRZYMANYCH W RZESZOWIE! GROZI IM UTRATA PRAWA JAZDY",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "średnia",
+      "location": "Rzeszów",
+      "media": "wideo",
+      "cluster": "kierowcy-rzeszow"
+    },
+    {
+      "post_id": "2126052100547489804",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T20:34Z",
+      "text": "Sąd uchylił decyzję stołecznego ratusza odmawiającą przedłużenia zgody na zgromadzenie pod TK",
+      "category": "polityka",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Warszawa",
+      "media": "wideo",
+      "cluster": "protest-tk-sad",
+      "corroborated_by": ["tvn24", "rmf24pl"]
+    },
+    {
+      "post_id": "2126048219498938674",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T20:19Z",
+      "text": "Premier Litwy w odpowiedzi na polonijne exposé Sikorskiego. \"Są kwestie do rozwiązania\"",
+      "category": "polityka",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "cluster": "premier-litwy-sikorski"
+    },
     {
       "post_id": "2126043609141064062",
       "handle": "rmf24pl",
@@ -25,61 +60,6 @@
       "location": "Polska",
       "media": "wideo",
       "cluster": "ochrona-zdrowia-wojna"
-    },
-    {
-      "post_id": "2126037367613952414",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T19:36Z",
-      "text": "W Warszawie otwarto biuro Tsihanouskaya, liderki białoruskiej opozycji demokratycznej. Nowa siedziba ma służyć działalności politycznej i społecznej sił demokratycznych.",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Warszawa",
-      "media": "wideo",
-      "cluster": "biuro-tsihanouskaya-warszawa"
-    },
-    {
-      "post_id": "2126035851956097254",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T19:30Z",
-      "text": "TRUMP ROZMAWIAŁ Z PUTINEM, WYCOFAŁ SIĘ Z AGRESJI NA EUROPĘ?",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "media": "wideo",
-      "cluster": "trump-putin-europa"
-    },
-    {
-      "post_id": "2126033253446422605",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T19:20Z",
-      "text": "Media: Rosja zgodziła się na udział Europy w negocjacjach",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "cluster": "rosja-europa-negocjacje"
-    },
-    {
-      "post_id": "2126038712073220106",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T19:41Z",
-      "text": "Tankowiec z paliwem zatonął w pobliżu Ibizy. Nie żyje marynarz",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Ibiza",
-      "cluster": "tankowiec-ibiza"
-    },
-    {
-      "post_id": "2126028727767490842",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T19:02Z",
-      "text": "Warszawa. Mieszkańcy dzielnicy Wawer uczestniczyli w szkoleniu z zakresu obrony cywilnej oraz ochrony ludności.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Warszawa",
-      "cluster": "szkolenie-obrona-cywilna-wawer"
     }
   ]
 }
