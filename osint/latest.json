@@ -1,53 +1,42 @@
 {
-  "generated_utc": "2026-11-26T13:10Z",
+  "generated_utc": "2026-11-26T14:16Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"from_DowOperSZ": 1, "from_RCB_RP": 1, "from_MON_GOV_PL": 0, "from_Straz_Graniczna": 0, "from_PolskaPolicja": 2, "from_PAPinformacje": 5, "from_rmf24pl": 10, "from_tvn24": 10},
+  "searches": {"from_DowOperSZ": 0, "from_RCB_RP": 0, "from_MON_GOV_PL": 3, "from_Straz_Graniczna": 1, "from_PolskaPolicja": 1, "from_PAPinformacje": 1, "from_rmf24pl": 6, "from_tvn24": 10},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125939576955195633",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-26T13:07Z",
-      "text": "Polska Agencja Żeglugi Powietrznej ma system antydronowy chroniący jej siedzibę na Lotnisku Chopina w Warszawie.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Warszawa, Polska",
-      "cluster": "antydron-chopin"
-    },
-    {
-      "post_id": "2125936641315324008",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T12:56Z",
-      "text": "Tragiczny wybuch w Egipcie. 30 zabitych, 15 osób rannych",
-      "category": "katastrofa",
+      "post_id": "2125952876224602211",
+      "handle": "MON_GOV_PL",
+      "posted_utc": "2026-11-26T14:00Z",
+      "text": "Kolejne dwa F-35A w Polsce. W 32 Bazie Lotnictwa Taktycznego w Łasku wylądowały kolejne dwa samoloty F-35A, wyprodukowane w zakładach w Cameri. Maszyny są docelowo przeznaczone dla 21 Bazy Lotnictwa Taktycznego w Świdwinie. F-35A zwiększają zdolności Sił Zbrojnych RP, zapewniając między innymi interoperacyjność z F-16 oraz systemem PATRIOT. #F35PL #Husarz",
+      "category": "lotnictwo",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Egipt",
-      "media": "wideo",
-      "cluster": "wybuch-egipt"
-    },
-    {
-      "post_id": "2125930890052149333",
-      "handle": "DowOperSZ",
-      "posted_utc": "2026-11-26T12:33Z",
-      "text": "#PKWKORMORAN w pełnym spektrum działań przeciwminowych. Poszukiwanie niebezpiecznych obiektów podwodnych, ich identyfikacja, neutralizacja oraz weryfikacja efektów – takie zadania zrealizowali marynarze polskiego kontyngentu w rejonie Zatoki Ryskiej. Załoga ORP MEWA skutecznie zneutralizowała miny historyczne.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Zatoka Ryska",
+      "location": "Łask, Polska",
       "media": "zdjęcie",
-      "cluster": "kormoran-miny-zatoka-ryska"
+      "cluster": "f35-ladowanie-lask"
     },
     {
-      "post_id": "2125927066893971773",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T12:18Z",
-      "text": "Materiał radioaktywny przy krakowskim szpitalu",
+      "post_id": "2125952488951935290",
+      "handle": "MON_GOV_PL",
+      "posted_utc": "2026-11-26T13:59Z",
+      "text": "W piątek (27 listopada br.) o godz. 12:00 w MuzeumWP na terenie Cytadeli Warszawskiej, wicepremier, minister obrony narodowej W. KosiniakKamysz weźmie udział w uroczystości podpisania umowy z Palantir Technologies Poland na dostawę oprogramowania dla systemu wspomagania podejmowania decyzji z wykorzystaniem sztucznej inteligencji.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Warszawa, Polska",
+      "media": "zdjęcie",
+      "cluster": "palantir-umowa-mon"
+    },
+    {
+      "post_id": "2125951465457844410",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-26T13:55Z",
+      "text": "Czujniki śmieciarki odbierającej odpady szpitala Rydygiera w Krakowie zarejestrowały przekroczone normy promieniowania radioaktywnego.",
       "category": "bezpieczeństwo",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
@@ -55,38 +44,16 @@
       "cluster": "material-radioaktywny-krakow"
     },
     {
-      "post_id": "2125926290951938294",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-26T12:15Z",
-      "text": "Pożar domu w Łodzi.",
-      "category": "katastrofa",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Łódź, Polska",
-      "cluster": "pozar-domu-lodz"
-    },
-    {
-      "post_id": "2125924213798097389",
-      "handle": "RCB_RP",
-      "posted_utc": "2026-11-26T12:06Z",
-      "text": "Zimowe warunki na drogach i chodnikach. O tej porze roku opady śniegu, miejscami również intensywne, mogą występować w różnych częściach Polski. Warunki na drogach i chodnikach mogą zmieniać się bardzo szybko. Pamiętajmy o zachowaniu szczególnej ostrożności.",
-      "category": "katastrofa",
+      "post_id": "2125943843061157896",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-26T13:24Z",
+      "text": "Funkcjonariusze Karpackiego Oddziału Straży Granicznej doprowadzili do granicy i przekazali stronie ukraińskiej 23-letniego obywatela Ukrainy, który umyślnie uszkodził 4 samochody. Mężczyzna został skazany na rok pozbawienia wolności w zawieszeniu na 3 lata. Otrzymał decyzję zobowiązującą do powrotu oraz 7-letni zakaz wjazdu do Polski i pozostałych państw strefy Schengen.",
+      "category": "bezpieczeństwo",
       "urgency_hint": "dziennik",
       "confidence": "wysoka",
       "location": "Polska",
       "media": "zdjęcie",
-      "cluster": "zimowe-warunki-drogi"
-    },
-    {
-      "post_id": "2125918219860840715",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T11:42Z",
-      "text": "Brytyjski resort obrony rozesłał listy do około 100 tysięcy rezerwistów",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Wielka Brytania",
-      "cluster": "uk-listy-rezerwisci"
+      "cluster": "deportacja-ukrainiec-uszkodzenie-aut"
     }
   ]
 }
