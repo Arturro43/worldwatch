@@ -1,13 +1,58 @@
 {
-  "generated_utc": "2026-11-26T16:07Z",
+  "generated_utc": "2026-11-26T17:12Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"officials_group": 0, "media_group": 10, "from_PAPinformacje": 2, "from_rmf24pl": 10, "from_tvn24": 6},
+  "searches": {"officials": 0, "media_group": 3, "from_rmf24pl": 3, "from_tvn24": 3, "from_PAPinformacje": 3},
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2125995572465197402",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T16:50Z",
+      "text": "Międzynarodowe manewry w Świętoszewie",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Świętoszewo, Polska",
+      "media": "wideo",
+      "cluster": "manewry-swietoszewo"
+    },
+    {
+      "post_id": "2125995540957819346",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T16:50Z",
+      "text": "Trump o rozmowie z Putinem: Powiedziałem mu, żeby wycofał się z agresji na Europę",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "cluster": "trump-putin-europa"
+    },
+    {
+      "post_id": "2125986082361667648",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-26T16:12Z",
+      "text": "Prezydent USA Donald Trump przekazał, że na szczycie w Chinach zwrócił się do przywódcy Rosji Władimira Putina, aby ten zaprzestał wszelkiej agresji w Europie. Stwierdził też, że wierzy, że jest duże prawdopodobieństwo zawarcia porozumienia między Ukrainą a Rosją w celu zakończenia działań wojennych.",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "cluster": "trump-putin-europa",
+      "corroborated_by": ["rmf24pl"]
+    },
+    {
+      "post_id": "2125990740249723259",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T16:31Z",
+      "text": "Zima w Tatrach. TPN ostrzega ws. zamarzniętych stawów. 'Igranie z własnym życiem'",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Tatry, Polska",
+      "media": "wideo",
+      "cluster": "ostrzezenie-tatry-stawy"
+    },
     {
       "post_id": "2125983837821829286",
       "handle": "PAPinformacje",
@@ -18,86 +63,6 @@
       "confidence": "wysoka",
       "location": "Warszawa, Polska",
       "cluster": "wyrok-zabojstwo-grzybowska"
-    },
-    {
-      "post_id": "2125983236467871849",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T16:01Z",
-      "text": "28-letni mężczyzna, który śmiertelnie pobił w środę w budynku przy ul. Stradomskiej w Wawrze 89-letnią kobietę, usłyszał zarzut zabójstwa",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Warszawa, Polska",
-      "cluster": "zabojstwo-wawer"
-    },
-    {
-      "post_id": "2125982382159454527",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T15:57Z",
-      "text": "Szef MON: do Polski dotarły kolejne dwa samoloty F-35",
-      "category": "lotnictwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "f35-dostawa"
-    },
-    {
-      "post_id": "2125976591129813302",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T15:34Z",
-      "text": "Jest decyzja ws. Święczkowskiego. Sąd dyscyplinarny TK poinformował",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "swieczkowski-przerwa"
-    },
-    {
-      "post_id": "2125970209345515687",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-26T15:09Z",
-      "text": "#PILNE | Sąd dyscyplinarny Trybunału Konstytucyjnego zarządził wobec Bogdana Święczkowskiego przerwę w czynnościach służbowych na 12 miesięcy.",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "media": "wideo",
-      "cluster": "swieczkowski-przerwa",
-      "corroborated_by": ["rmf24pl"]
-    },
-    {
-      "post_id": "2125975847169569228",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T15:31Z",
-      "text": "Sąd Okręgowy w Warszawie skazał w czwartek na 30 lat więzienia Andriia S. i na 15 lat więzienia Iona B. Chodzi o sprawę zabójstw w opuszczonej kamienicy przy ul. Grzybowskiej",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Warszawa, Polska",
-      "cluster": "wyrok-zabojstwo-grzybowska",
-      "corroborated_by": ["PAPinformacje"]
-    },
-    {
-      "post_id": "2125974515800834542",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T15:26Z",
-      "text": "Irański dron uderzył w Kuwejcie. Włosi z Rheinmetall nie żyją",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Kuwejt",
-      "cluster": "dron-kuwejt-rheinmetall"
-    },
-    {
-      "post_id": "2125970599860138217",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T15:11Z",
-      "text": "Paszynian wyprasza rosyjskich pograniczników. „Bardzo jesteśmy wdzięczni, ale...”",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Armenia",
-      "cluster": "armenia-rosyjscy-pogranicznicy"
     }
   ]
 }
