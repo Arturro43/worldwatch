@@ -1,65 +1,18 @@
 {
-  "generated_utc": "2026-11-26T21:06Z",
+  "generated_utc": "2026-11-26T23:01Z",
   "version": 4.2,
   "list": "brak",
+  "plan": null,
+  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna OR from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 2,
-    "(from:rmf24pl OR from:tvn24)": 9
+    "(from:DowOperSZ OR from:RCB_RP)": 0,
+    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 1,
+    "(from:LukaszBok OR from:FaytuksNetwork)": 0
   },
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2126054690135695696",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T20:45Z",
-      "text": "DWÓCH KIEROWCÓW ZATRZYMANYCH W RZESZOWIE! GROZI IM UTRATA PRAWA JAZDY",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Rzeszów",
-      "media": "wideo",
-      "cluster": "kierowcy-rzeszow"
-    },
-    {
-      "post_id": "2126052100547489804",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T20:34Z",
-      "text": "Sąd uchylił decyzję stołecznego ratusza odmawiającą przedłużenia zgody na zgromadzenie pod TK",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Warszawa",
-      "media": "wideo",
-      "cluster": "protest-tk-sad",
-      "corroborated_by": ["tvn24", "rmf24pl"]
-    },
-    {
-      "post_id": "2126048219498938674",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T20:19Z",
-      "text": "Premier Litwy w odpowiedzi na polonijne exposé Sikorskiego. \"Są kwestie do rozwiązania\"",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "cluster": "premier-litwy-sikorski"
-    },
-    {
-      "post_id": "2126043609141064062",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T20:01Z",
-      "text": "CZY POLSKA OCHRONA ZDROWIA JEST GOTOWA NA WOJNĘ?",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Polska",
-      "media": "wideo",
-      "cluster": "ochrona-zdrowia-wojna"
-    }
-  ]
+  "items": []
 }
