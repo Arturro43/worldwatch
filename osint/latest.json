@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T23:01Z",
+  "generated_utc": "2026-11-26T00:01Z",
   "version": 4.2,
   "list": "brak",
   "plan": null,
@@ -7,7 +7,7 @@
   "groups_checked": ["G_DowOper_RCB", "G_MON_Straz", "G_Policja_PAP", "G_Lukasz_Faytuks"],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
-  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 2, "G_Lukasz_Faytuks": 1},
+  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 0, "G_Lukasz_Faytuks": 3},
   "error": "brak listy",
-  "items": [{"post_id": "2125713295898444123", "handle": "PAPinformacje", "posted_utc": "2026-11-25T22:08Z", "text": "Stała baza wojsk USA w Polsce. Wiceminister Zalewski o tym, kiedy zapadnie decyzja ↧ #PAPInformacje https://www.pap.pl/aktualnosci/stala-baza-wojsk-usa-w-polsce-wiceminister-zalewski-o-tym-kiedy-zapadnie-decyzja", "category": "bezpieczeństwo", "urgency_hint": "dziennik", "confidence": "wysoka", "via": "G_Policja_PAP", "location": "Polska", "cluster": "baza-usa-polska"}]
+  "items": []
 }
