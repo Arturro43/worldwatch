@@ -1,74 +1,54 @@
 {
-  "generated_utc": "2026-11-26T19:06Z",
+  "generated_utc": "2026-11-26T20:01Z",
   "version": 4.2,
   "list": "brak",
+  "plan": null,
+  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
+    "(from:DowOperSZ OR from:RCB_RP)": 0,
+    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
     "(from:PolskaPolicja OR from:PAPinformacje)": 4,
-    "(from:rmf24pl OR from:tvn24)": 10
+    "(from:LukaszBok OR from:FaytuksNetwork)": 5
   },
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2126024772928647463",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T18:46Z",
-      "text": "Policjanci zatrzymali wieczorem kierowcę czerwonego Chevroleta Corvette, który w czwartek rano w Kielcach, uciekając przed funkcjonariuszami, uderzył w radiowóz. Mężczyzna jechał też pod prąd i chodnikiem. Na drodze ekspresowej S7 zdołał zgubić ścigających go funkcjonariuszy.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Kielce",
-      "cluster": "poscig-kielce-corvette",
-      "corroborated_by": ["PAPinformacje"]
-    },
-    {
-      "post_id": "2126022152059326740",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-26T18:35Z",
-      "text": "Ukraińskie drony uderzyły w rafinerię ropy naftowej w mieście Sławiańsk nad Kubaniem na południowym zachodzie Rosji - podał ukraiński wywiad wojskowy. Według dyrekcji rafinerii straty są poważne.",
+      "post_id": "2126037203436634125",
+      "handle": "FaytuksNetwork",
+      "posted_utc": "2026-11-26T19:35Z",
+      "text": "The Israeli military said it carried out airstrikes targeting dozens of Hezbollah rockets and launchers at a training camp belonging to the group's elite Radwan Force in Ain al-Tineh, southern Lebanon.",
+      "summary_pl": "Izraelskie wojsko przeprowadziło naloty na pozycje Hezbollahu w południowym Libanie.",
       "category": "wojna",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Rosja",
-      "cluster": "atak-dronow-rafineria-slawiansk"
+      "location": "Liban",
+      "media": "zdjęcie, wideo",
+      "cluster": "naloty-izrael-hezbollah-liban"
     },
     {
-      "post_id": "2126020840471089186",
+      "post_id": "2126037367613952414",
       "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T18:30Z",
-      "text": "Uciekając przed policją, uderzył w radiowóz. 41-latek zatrzymany",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Kielce",
-      "cluster": "poscig-kielce-corvette",
-      "corroborated_by": ["rmf24pl"]
-    },
-    {
-      "post_id": "2126018234931388576",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-26T18:20Z",
-      "text": "Pożar na al. Wojska Polskiego w Policach. Płonie stare kino „Bajka”",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Police",
-      "media": "wideo",
-      "cluster": "pozar-police-kino"
-    },
-    {
-      "post_id": "2126018275834577302",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-26T18:20Z",
-      "text": "Trump: mówiłem Putinowi, żeby zaprzestał wszelkiej agresji militarnej wymierzonej w Europę",
+      "posted_utc": "2026-11-26T19:36Z",
+      "text": "W Warszawie otwarto biuro Tsihanouskaya, liderki białoruskiej opozycji demokratycznej. Nowa siedziba ma służyć działalności politycznej i społecznej sił demokratycznych.",
       "category": "polityka",
       "urgency_hint": "dziennik",
       "confidence": "wysoka",
-      "cluster": "trump-putin-agresja-europa"
+      "location": "Warszawa",
+      "cluster": "biuro-tsihanouskaya-warszawa"
+    },
+    {
+      "post_id": "2126028727767490842",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T19:02Z",
+      "text": "Warszawa. Mieszkańcy dzielnicy Wawer uczestniczyli w szkoleniu z zakresu obrony cywilnej oraz ochrony ludności.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Warszawa",
+      "cluster": "szkolenie-obrona-cywilna-wawer"
     }
   ]
 }
