@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T00:01Z",
+  "generated_utc": "2026-11-26T01:02Z",
   "version": 4.2,
   "list": "brak",
   "plan": null,
@@ -7,7 +7,7 @@
   "groups_checked": ["G_DowOper_RCB", "G_MON_Straz", "G_Policja_PAP", "G_Lukasz_Faytuks"],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
-  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 0, "G_Lukasz_Faytuks": 3},
+  "searches": {"G_DowOper_RCB": 0, "G_MON_Straz": 0, "G_Policja_PAP": 0, "G_Lukasz_Faytuks": 8},
   "error": "brak listy",
   "items": []
 }
