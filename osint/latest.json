@@ -1,59 +1,79 @@
 {
-  "generated_utc": "2026-11-26T14:16Z",
+  "generated_utc": "2026-11-26T15:16Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
-  "searches": {"from_DowOperSZ": 0, "from_RCB_RP": 0, "from_MON_GOV_PL": 3, "from_Straz_Graniczna": 1, "from_PolskaPolicja": 1, "from_PAPinformacje": 1, "from_rmf24pl": 6, "from_tvn24": 10},
+  "searches": {"from_DowOperSZ": 0, "from_RCB_RP": 0, "from_MON_GOV_PL": 0, "from_Straz_Graniczna": 0, "from_PolskaPolicja": 0, "from_PAPinformacje": 6, "from_rmf24pl": 7, "from_tvn24": 5},
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2125952876224602211",
-      "handle": "MON_GOV_PL",
-      "posted_utc": "2026-11-26T14:00Z",
-      "text": "Kolejne dwa F-35A w Polsce. W 32 Bazie Lotnictwa Taktycznego w Łasku wylądowały kolejne dwa samoloty F-35A, wyprodukowane w zakładach w Cameri. Maszyny są docelowo przeznaczone dla 21 Bazy Lotnictwa Taktycznego w Świdwinie. F-35A zwiększają zdolności Sił Zbrojnych RP, zapewniając między innymi interoperacyjność z F-16 oraz systemem PATRIOT. #F35PL #Husarz",
-      "category": "lotnictwo",
+      "post_id": "2125970599860138217",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T15:11Z",
+      "text": "Paszynian wyprasza rosyjskich pograniczników. „Bardzo jesteśmy wdzięczni, ale...”",
+      "category": "polityka",
       "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Łask, Polska",
-      "media": "zdjęcie",
-      "cluster": "f35-ladowanie-lask"
+      "confidence": "średnia",
+      "location": "Armenia",
+      "cluster": "armenia-rosyjscy-pogranicznicy"
     },
     {
-      "post_id": "2125952488951935290",
-      "handle": "MON_GOV_PL",
-      "posted_utc": "2026-11-26T13:59Z",
-      "text": "W piątek (27 listopada br.) o godz. 12:00 w MuzeumWP na terenie Cytadeli Warszawskiej, wicepremier, minister obrony narodowej W. KosiniakKamysz weźmie udział w uroczystości podpisania umowy z Palantir Technologies Poland na dostawę oprogramowania dla systemu wspomagania podejmowania decyzji z wykorzystaniem sztucznej inteligencji.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Warszawa, Polska",
-      "media": "zdjęcie",
-      "cluster": "palantir-umowa-mon"
-    },
-    {
-      "post_id": "2125951465457844410",
+      "post_id": "2125970209345515687",
       "handle": "tvn24",
-      "posted_utc": "2026-11-26T13:55Z",
-      "text": "Czujniki śmieciarki odbierającej odpady szpitala Rydygiera w Krakowie zarejestrowały przekroczone normy promieniowania radioaktywnego.",
+      "posted_utc": "2026-11-26T15:09Z",
+      "text": "#PILNE | Sąd dyscyplinarny Trybunału Konstytucyjnego zarządził wobec Bogdana Święczkowskiego przerwę w czynnościach służbowych na 12 miesięcy.",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "swieczkowski-przerwa-sluzbowa"
+    },
+    {
+      "post_id": "2125964931920986129",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T14:48Z",
+      "text": "Zimowa aura w Beskidach. Szlak na Babiej Górze zamknięty z powodu trudnych warunków",
+      "category": "inne",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Beskidy, Polska",
+      "cluster": "szlak-babia-gora-zamkniety"
+    },
+    {
+      "post_id": "2125964582711889981",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-26T14:47Z",
+      "text": "Zamach w Krakowie. Prokuratura przesłuchała około 250 świadków",
       "category": "bezpieczeństwo",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
       "location": "Kraków, Polska",
-      "cluster": "material-radioaktywny-krakow"
+      "cluster": "zamach-krakow-sledztwo"
     },
     {
-      "post_id": "2125943843061157896",
-      "handle": "Straz_Graniczna",
-      "posted_utc": "2026-11-26T13:24Z",
-      "text": "Funkcjonariusze Karpackiego Oddziału Straży Granicznej doprowadzili do granicy i przekazali stronie ukraińskiej 23-letniego obywatela Ukrainy, który umyślnie uszkodził 4 samochody. Mężczyzna został skazany na rok pozbawienia wolności w zawieszeniu na 3 lata. Otrzymał decyzję zobowiązującą do powrotu oraz 7-letni zakaz wjazdu do Polski i pozostałych państw strefy Schengen.",
-      "category": "bezpieczeństwo",
+      "post_id": "2125963357198926213",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T14:42Z",
+      "text": "Przywileje dla funkcjonariuszy. Senat przyjął ustawę o Karcie Rodziny Mundurowej",
+      "category": "polityka",
       "urgency_hint": "dziennik",
-      "confidence": "wysoka",
+      "confidence": "średnia",
       "location": "Polska",
-      "media": "zdjęcie",
-      "cluster": "deportacja-ukrainiec-uszkodzenie-aut"
+      "cluster": "karta-rodziny-mundurowej"
+    },
+    {
+      "post_id": "2125957873096065472",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-26T14:20Z",
+      "text": "Czołowy rosyjski generał został aresztowany. Czystki trwają",
+      "category": "wojna",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Rosja",
+      "cluster": "aresztowanie-generala-rosja"
     }
   ]
 }
