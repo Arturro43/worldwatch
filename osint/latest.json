@@ -1,18 +1,50 @@
 {
-  "generated_utc": "2026-11-27T20:02Z",
+  "generated_utc": "2026-11-27T20:06Z",
   "version": 4.0,
   "list": "brak",
-  "plan": null,
-  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP)": 0,
-    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
+    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
     "(from:PolskaPolicja OR from:PAPinformacje)": 2,
-    "(from:LukaszBok OR from:FaytuksNetwork)": 2
+    "(from:rmf24pl OR from:tvn24)": 10,
+    "from:rmf24pl": 7,
+    "from:tvn24": 3
   },
   "error": "brak listy",
-  "items": []
+  "items": [
+    {
+      "post_id": "2126405842874380509",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T20:00Z",
+      "text": "Prezydent Krakowa Łukasz Gibała poinformował w piątek po południu, że na prośbę komendanta miejskiego podjął decyzję o przekazaniu krakowskiej policji 200 tys. zł. Środki mają być przeznaczone na zakup kamizelek i zestawów ratowniczych dla policjantów.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "średnia",
+      "location": "Kraków, Polska"
+    },
+    {
+      "post_id": "2126404360905342998",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T19:54Z",
+      "text": "Pożar w centrum Karpacza. Ogień objął cały budynek https://www.rmf24.pl/regiony/wroclaw/news-pozar-w-centrum-karpacza-ogien-objal-caly-budynek,nIdn,1028055",
+      "category": "katastrofa",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Karpacz, Polska",
+      "cluster": "pozar-karpacz"
+    },
+    {
+      "post_id": "2126391001426063729",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T19:01Z",
+      "text": "Odwołano wszystkie loty i wstrzymano sprzedaż biletów. Te linie lotnicze ogłosiły upadłość https://www.rmf24.pl/fakty/swiat/news-odwolano-wszystkie-loty-i-wstrzymano-sprzedaz-biletow-te-lin,nIdn,1028051",
+      "category": "lotnictwo",
+      "urgency_hint": "dziennik",
+      "confidence": "średnia",
+      "cluster": "upadlosc-linii-lotniczych"
+    }
+  ]
 }
