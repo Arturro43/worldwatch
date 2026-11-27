@@ -1,35 +1,18 @@
 {
-  "generated_utc": "2026-11-27T19:07Z",
+  "generated_utc": "2026-11-27T20:02Z",
   "version": 4.0,
   "list": "brak",
+  "plan": null,
+  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10
+    "(from:DowOperSZ OR from:RCB_RP)": 0,
+    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 2,
+    "(from:LukaszBok OR from:FaytuksNetwork)": 2
   },
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2126383160015339711",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T18:30Z",
-      "text": "Tusk przedłużył stopnie alarmowe w Polsce do lutego 2027 roku",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska"
-    },
-    {
-      "post_id": "2126378728351551937",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T18:12Z",
-      "text": "W Katowicach na jednym torze zatrzymały się blisko siebie dwa pociągi. Odpowiedzialne za infrastrukturę Polskie Linie Kolejowe wskazują na błąd pracownika.",
-      "category": "infrastruktura",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Katowice"
-    }
-  ]
+  "items": []
 }
