@@ -1,18 +1,95 @@
 {
-  "generated_utc": "2026-11-27T02:01Z",
-  "version": 4.2,
+  "generated_utc": "2026-11-27T11:07Z",
+  "version": 4.0,
   "list": "brak",
-  "plan": null,
-  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP)": 0,
-    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 0,
-    "(from:LukaszBok OR from:FaytuksNetwork)": 0
+    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 3,
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 10,
+    "(from:rmf24pl OR from:tvn24)": 10
   },
   "error": "brak listy",
-  "items": []
+  "items": [
+    {
+      "post_id": "2126271363711201472",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T11:06Z",
+      "text": "Jeśli taka zależność okazałaby się faktem, to oczywiście ja kończę współpracę - powiedział Donald Tusk, pytany o reportaż odslaniający kulisy finansowania kampanii Marcina Kierwińskiego. Zaznaczył jednak, że obecnie nie ma podstaw, aby stracić zaufanie do szefa MSWiA.",
+      "category": "polityka",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "cluster": "tusk-kierwinski"
+    },
+    {
+      "post_id": "2126269917905178841",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-27T11:00Z",
+      "text": "Bus pracowniczy uderzył w drzewo w Grędzinie niedaleko Jelcza-Laskowic na Dolnym Śląsku. Jechało nim do pracy 14 osób. Cztery osoby zostały ranne.",
+      "category": "katastrofa",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Grędzina, Dolny Śląsk",
+      "media": "wideo",
+      "cluster": "wypadek-bus-gredzina"
+    },
+    {
+      "post_id": "2126262878281891927",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-27T10:32Z",
+      "text": "Premier Donald Tusk po szczycie UE: wszyscy zobowiązali się, aby Polska była traktowana odrębnie, czyli żeby pieniądze z ETS zostawały w Polsce. (PAP)",
+      "category": "polityka",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "cluster": "szczyt-ue-ets"
+    },
+    {
+      "post_id": "2126262331734655449",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-27T10:30Z",
+      "text": "Sześć osób zatrzymanych w związku ze zniszczeniem trzech warszawskich pomników. Na początku listopada namalowano na nich czerwone napisy Slava UPA. Stołeczni policjanci ustalili zleceniodawców tej dewastacji.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Warszawa",
+      "media": "wideo",
+      "cluster": "dewastacja-pomnikow-upa"
+    },
+    {
+      "post_id": "2126262260901494839",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T10:30Z",
+      "text": "W pustostanie przy ulicy Wyszyńskiego w Tychach strażnicy miejscy znaleźli ciała trzech mężczyzn.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Tychy",
+      "cluster": "ciala-tychy"
+    },
+    {
+      "post_id": "2126258886772420757",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-27T10:16Z",
+      "text": "Czterech obywateli Kolumbii zatrzymali funkcjonariusze Nadwiślańskiego Oddziału Straży Granicznej. Trzech przebywało w Polsce niezgodnie z przepisami, czwarty został uznany za zagrożenie dla bezpieczeństwa i porządku publicznego.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "zdjęcie"
+    },
+    {
+      "post_id": "2126256030354968789",
+      "handle": "Straz_Graniczna",
+      "posted_utc": "2026-11-27T10:05Z",
+      "text": "820 paczek papierosów ukrytych w specjalnej skrytce Tesli ujawnili funkcjonariusze Podlaskiego Oddziału Straży Granicznej i KAS w woj. podlaskim. Na gorącym uczynku zatrzymano trzech obywateli Białorusi.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "woj. podlaskie",
+      "media": "wideo, zdjęcie",
+      "cites": "KAS_GOV_PL"
+    }
+  ]
 }
