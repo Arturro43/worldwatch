@@ -1,95 +1,103 @@
 {
-  "generated_utc": "2026-11-27T11:07Z",
+  "generated_utc": "2026-11-27T13:12Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 3,
+    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 8,
     "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
     "(from:PolskaPolicja OR from:PAPinformacje)": 10,
-    "(from:rmf24pl OR from:tvn24)": 10
+    "(from:rmf24pl OR from:tvn24)": 10,
+    "from:PolskaPolicja": 4,
+    "from:PAPinformacje": 10,
+    "from:rmf24pl": 10,
+    "from:tvn24": 10,
+    "from:DowOperSZ": 0,
+    "from:RCB_RP": 0,
+    "from:Straz_Graniczna": 0
   },
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2126271363711201472",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T11:06Z",
-      "text": "Jeśli taka zależność okazałaby się faktem, to oczywiście ja kończę współpracę - powiedział Donald Tusk, pytany o reportaż odslaniający kulisy finansowania kampanii Marcina Kierwińskiego. Zaznaczył jednak, że obecnie nie ma podstaw, aby stracić zaufanie do szefa MSWiA.",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "cluster": "tusk-kierwinski"
-    },
-    {
-      "post_id": "2126269917905178841",
+      "post_id": "2126295214621098489",
       "handle": "RMF24pl",
-      "posted_utc": "2026-11-27T11:00Z",
-      "text": "Bus pracowniczy uderzył w drzewo w Grędzinie niedaleko Jelcza-Laskowic na Dolnym Śląsku. Jechało nim do pracy 14 osób. Cztery osoby zostały ranne.",
-      "category": "katastrofa",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Grędzina, Dolny Śląsk",
-      "media": "wideo",
-      "cluster": "wypadek-bus-gredzina"
-    },
-    {
-      "post_id": "2126262878281891927",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-27T10:32Z",
-      "text": "Premier Donald Tusk po szczycie UE: wszyscy zobowiązali się, aby Polska była traktowana odrębnie, czyli żeby pieniądze z ETS zostawały w Polsce. (PAP)",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "cluster": "szczyt-ue-ets"
-    },
-    {
-      "post_id": "2126262331734655449",
-      "handle": "RMF24pl",
-      "posted_utc": "2026-11-27T10:30Z",
-      "text": "Sześć osób zatrzymanych w związku ze zniszczeniem trzech warszawskich pomników. Na początku listopada namalowano na nich czerwone napisy Slava UPA. Stołeczni policjanci ustalili zleceniodawców tej dewastacji.",
+      "posted_utc": "2026-11-27T12:40Z",
+      "text": "14-latek zaatakował matkę nożem https://www.rmf24.pl/regiony/news-14-latek-zaatakowal-matke-nozem-pilna-interwencja-sluzb-w-tw,nIdn,1027995",
       "category": "bezpieczeństwo",
       "urgency_hint": "dziennik",
       "confidence": "wysoka",
-      "location": "Warszawa",
-      "media": "wideo",
-      "cluster": "dewastacja-pomnikow-upa"
+      "cluster": "atak-noz-matka"
     },
     {
-      "post_id": "2126262260901494839",
+      "post_id": "2126291293491830840",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-27T12:25Z",
+      "text": "13 osób zatrzymanych za cyberoszustwa. Nieletni mieli kierować gangiem ⤵️ #PAPInformacje https://www.pap.pl/aktualnosci/13-osob-zatrzymanych-za-cyberoszustwa-nieletni-mieli-kierowac-gangiem-wideo",
+      "category": "cyber",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "cluster": "cyberoszustwa-nieletni"
+    },
+    {
+      "post_id": "2126289384702181867",
       "handle": "tvn24",
-      "posted_utc": "2026-11-27T10:30Z",
-      "text": "W pustostanie przy ulicy Wyszyńskiego w Tychach strażnicy miejscy znaleźli ciała trzech mężczyzn.",
+      "posted_utc": "2026-11-27T12:17Z",
+      "text": "Sześć osób odpowie przed sądem za oszustwa metodą 'na pracownika banku'. https://tvn24.pl/olsztyn/olsztyn-metoda-na-pracownika-banku-ukradli-ponad-2-miliony-stana-przed-sadem-st9360753",
+      "category": "cyber",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Olsztyn",
+      "cluster": "oszustwa-bank-olsztyn"
+    },
+    {
+      "post_id": "2126286135718469965",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-27T12:04Z",
+      "text": "Opady śniegu i silny mróz, a później zwrot. IMGW wskazuje, kiedy zrobi się cieplej: https://www.rmf24.pl/fakty/pogoda/news-opady-sniegu-i-silny-mroz-a-pozniej-zwrot-imgw-wskazuje-kied,nIdn,1027982",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "cluster": "opady-sniegu-mroz"
+    },
+    {
+      "post_id": "2126285544300613873",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T12:02Z",
+      "text": "Od czwartku nad południową Polską występują opady śniegu, miejscami intensywne. Sytuacja na drogach bywa trudna. https://tvn24.pl/wroclaw/wroclaw-nagle-zatrzymal-autobus-i-otworzyl-drzwi-kierowca-nie-gryzl-sie-w-jezyk-st9360853",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "południowa Polska",
+      "cluster": "opady-sniegu-mroz",
+      "corroborated_by": ["RMF24pl"]
+    },
+    {
+      "post_id": "2126285107392651719",
+      "handle": "RMF24pl",
+      "posted_utc": "2026-11-27T12:00Z",
+      "text": "Ciała trzech osób znaleźli strażnicy miejscy w pustostanie przy ul. Wyszyńskiego w Tychach (województwo śląskie). Sprawą zajmują się policja i prokuratura.",
       "category": "bezpieczeństwo",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
       "location": "Tychy",
-      "cluster": "ciala-tychy"
+      "media": "wideo",
+      "cluster": "zwloki-tychy"
     },
     {
-      "post_id": "2126258886772420757",
-      "handle": "Straz_Graniczna",
-      "posted_utc": "2026-11-27T10:16Z",
-      "text": "Czterech obywateli Kolumbii zatrzymali funkcjonariusze Nadwiślańskiego Oddziału Straży Granicznej. Trzech przebywało w Polsce niezgodnie z przepisami, czwarty został uznany za zagrożenie dla bezpieczeństwa i porządku publicznego.",
+      "post_id": "2126284586955022419",
+      "handle": "PAPinformacje",
+      "posted_utc": "2026-11-27T11:58Z",
+      "text": "Tragiczne odkrycie w Tychach. Zwłoki trzech osób w pustostanie ⤵️ #PAPInformacje https://www.pap.pl/aktualnosci/tragiczne-odkrycie-w-tychach-zwloki-trzech-osob-w-pustostanie",
       "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
+      "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Polska",
-      "media": "zdjęcie"
-    },
-    {
-      "post_id": "2126256030354968789",
-      "handle": "Straz_Graniczna",
-      "posted_utc": "2026-11-27T10:05Z",
-      "text": "820 paczek papierosów ukrytych w specjalnej skrytce Tesli ujawnili funkcjonariusze Podlaskiego Oddziału Straży Granicznej i KAS w woj. podlaskim. Na gorącym uczynku zatrzymano trzech obywateli Białorusi.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "woj. podlaskie",
-      "media": "wideo, zdjęcie",
-      "cites": "KAS_GOV_PL"
+      "location": "Tychy",
+      "cluster": "zwloki-tychy",
+      "corroborated_by": ["RMF24pl"]
     }
   ]
 }
