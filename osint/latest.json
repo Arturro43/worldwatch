@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T17:10Z",
+  "generated_utc": "2026-11-27T18:10Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
@@ -7,14 +7,87 @@
   "handles_not_checked": [],
   "searches": {
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 3,
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 2,
+    "(from:rmf24pl OR from:tvn24)": 10,
+    "from:rmf24pl": 5,
+    "from:tvn24": 6,
     "from:PolskaPolicja": 0,
-    "from:PAPinformacje": 0,
-    "from:tvn24": 3,
-    "from:rmf24pl": 3
+    "from:DowOperSZ": 0,
+    "from:RCB_RP": 0,
+    "from:MON_GOV_PL": 0,
+    "from:Straz_Graniczna": 0
   },
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2126375668392816913",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T18:00Z",
+      "text": "Cyberatak na Cloud One – główną platformę chmurową amerykańskich Sił Powietrznych – wywołał prawdziwy alarm w Pentagonie. Nieznani sprawcy wykorzystali lukę w oprogramowaniu, by uzyskać dostęp do kluczowych systemów wojskowych – podaje Reuters.",
+      "category": "cyber",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "USA",
+      "media": "wideo",
+      "cluster": "cyberatak-usaf"
+    },
+    {
+      "post_id": "2126373541121818679",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T17:52Z",
+      "text": "W tragicznym wypadku na obwodnicy w Gizie zginęło kilkadziesiąt osób. Ministerstwo Spraw Wewnętrznych Egiptu opublikowało nagrania, na których widać moment poprzedzający zdarzenie oraz ogromny pożar.",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Egipt",
+      "cluster": "wypadek-giza"
+    },
+    {
+      "post_id": "2126371891397161337",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T17:45Z",
+      "text": "W jadalni schroniska turystycznego nad Morskim Okiem ktoś rozpylił gaz. Najprawdopodobniej był to środek odstraszający niedźwiedzie. Według kierownictwa obiektu, nikomu nic się nie stało.",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Tatry",
+      "cluster": "gaz-morskie-oko"
+    },
+    {
+      "post_id": "2126368019312001191",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T17:30Z",
+      "text": "Prokurator generalny Waldemar Żurek poinformował, że podpisał wniosek do marszałka Sejmu o uchylenie immunitetu Zbigniewowi Ziobrze i wyrażenie przez Sejm zgody na tymczasowe aresztowanie. Sprawa dotyczy kwestii związanych z systemem Pegasus.",
+      "category": "polityka",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "ziobro-pegasus"
+    },
+    {
+      "post_id": "2126367189292712239",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T17:26Z",
+      "text": "Sąd Okręgowy w Warszawie uchylił decyzję stołecznego ratusza, który nie wyraził zgody na przedłużenie zgromadzenia przed Trybunałem Konstytucyjnym.",
+      "category": "polityka",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Warszawa",
+      "cluster": "protest-tk"
+    },
+    {
+      "post_id": "2126365501689393594",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T17:20Z",
+      "text": "Prokuratura postawiła zarzuty 12 osobom w sprawie dotyczącej Dolnośląskiego Urzędu Wojewódzkiego. Wśród podejrzanych są obecni urzędnicy oraz była urzędniczka i jej córka. Śledztwo dotyczy przestępstw o charakterze korupcyjnym.",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Wrocław",
+      "cluster": "korupcja-duw"
+    },
     {
       "post_id": "2126360616302481513",
       "handle": "rmf24pl",
@@ -26,39 +99,6 @@
       "location": "Polska",
       "media": "wideo",
       "cluster": "aresztowania-pseudokibice"
-    },
-    {
-      "post_id": "2126354774018973888",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T16:37Z",
-      "text": "W schronisku nad Morskim Okiem w Tatrach ktoś rozpylił gaz, służący najprawdopodobniej do odstraszania niedźwiedzi. Do zdarzenia doszło, gdy jadalnia była pełna gości. Ewakuowano wszystkich turystów, nikomu nic się nie stało. https://www.rmf24.pl/regiony/zakopane/news-grozny-incydent-nad-morskim-okiem-ze-schroniska-ewakuowano-t,nIdn,1028036",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Tatry",
-      "cluster": "gaz-morskie-oko"
-    },
-    {
-      "post_id": "2126353861426245687",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T16:34Z",
-      "text": "Ministerstwo Obrony Narodowej zawarło umowę z Palantirem na dostawę oprogramowania Maven Smart Systems. Wykorzystuje ono sztuczną inteligencję do analizowania danych w celu ułatwienia podejmowania decyzji, w zarządzaniu siłami i na polu walki. https://tvn24.pl/polska/umowa-mon-z-palantirem-podpisana-wladyslaw-kosiniak-kamysz-serwery-sa-i-beda-u-nas-st9361615",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "palantir-umowa"
-    },
-    {
-      "post_id": "2126352474420224325",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T16:28Z",
-      "text": "Do prokuratury zgłosili się rodzice dziecka, w kierunku którego zamachowiec oddał strzały w Krakowie. - Mają oni status osób pokrzywdzonych - podkreślają śledczy. Na nagraniu, które obiegło media, widać przejazd zamachowca i strzały, które trafiają w ścianę, tuż przy głowie dziewczynki.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Kraków",
-      "cluster": "strzaly-krakow"
     }
   ]
 }
