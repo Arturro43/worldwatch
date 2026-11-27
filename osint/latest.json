@@ -1,104 +1,18 @@
 {
-  "generated_utc": "2026-11-27T18:10Z",
+  "generated_utc": "2026-11-27T19:02Z",
   "version": 4.0,
   "list": "brak",
+  "plan": null,
+  "calls": 4,
   "groups_checked": [],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
+    "(from:DowOperSZ OR from:RCB_RP)": 0,
+    "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
     "(from:PolskaPolicja OR from:PAPinformacje)": 2,
-    "(from:rmf24pl OR from:tvn24)": 10,
-    "from:rmf24pl": 5,
-    "from:tvn24": 6,
-    "from:PolskaPolicja": 0,
-    "from:DowOperSZ": 0,
-    "from:RCB_RP": 0,
-    "from:MON_GOV_PL": 0,
-    "from:Straz_Graniczna": 0
+    "(from:LukaszBok OR from:FaytuksNetwork)": 5
   },
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2126375668392816913",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T18:00Z",
-      "text": "Cyberatak na Cloud One – główną platformę chmurową amerykańskich Sił Powietrznych – wywołał prawdziwy alarm w Pentagonie. Nieznani sprawcy wykorzystali lukę w oprogramowaniu, by uzyskać dostęp do kluczowych systemów wojskowych – podaje Reuters.",
-      "category": "cyber",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "USA",
-      "media": "wideo",
-      "cluster": "cyberatak-usaf"
-    },
-    {
-      "post_id": "2126373541121818679",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T17:52Z",
-      "text": "W tragicznym wypadku na obwodnicy w Gizie zginęło kilkadziesiąt osób. Ministerstwo Spraw Wewnętrznych Egiptu opublikowało nagrania, na których widać moment poprzedzający zdarzenie oraz ogromny pożar.",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Egipt",
-      "cluster": "wypadek-giza"
-    },
-    {
-      "post_id": "2126371891397161337",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T17:45Z",
-      "text": "W jadalni schroniska turystycznego nad Morskim Okiem ktoś rozpylił gaz. Najprawdopodobniej był to środek odstraszający niedźwiedzie. Według kierownictwa obiektu, nikomu nic się nie stało.",
-      "category": "katastrofa",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Tatry",
-      "cluster": "gaz-morskie-oko"
-    },
-    {
-      "post_id": "2126368019312001191",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T17:30Z",
-      "text": "Prokurator generalny Waldemar Żurek poinformował, że podpisał wniosek do marszałka Sejmu o uchylenie immunitetu Zbigniewowi Ziobrze i wyrażenie przez Sejm zgody na tymczasowe aresztowanie. Sprawa dotyczy kwestii związanych z systemem Pegasus.",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Polska",
-      "media": "wideo",
-      "cluster": "ziobro-pegasus"
-    },
-    {
-      "post_id": "2126367189292712239",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T17:26Z",
-      "text": "Sąd Okręgowy w Warszawie uchylił decyzję stołecznego ratusza, który nie wyraził zgody na przedłużenie zgromadzenia przed Trybunałem Konstytucyjnym.",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Warszawa",
-      "cluster": "protest-tk"
-    },
-    {
-      "post_id": "2126365501689393594",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T17:20Z",
-      "text": "Prokuratura postawiła zarzuty 12 osobom w sprawie dotyczącej Dolnośląskiego Urzędu Wojewódzkiego. Wśród podejrzanych są obecni urzędnicy oraz była urzędniczka i jej córka. Śledztwo dotyczy przestępstw o charakterze korupcyjnym.",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Wrocław",
-      "cluster": "korupcja-duw"
-    },
-    {
-      "post_id": "2126360616302481513",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T17:00Z",
-      "text": "Kolejne zatrzymania osób związanych ze środowiskiem pseudokibiców",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Polska",
-      "media": "wideo",
-      "cluster": "aresztowania-pseudokibice"
-    }
-  ]
+  "items": []
 }
