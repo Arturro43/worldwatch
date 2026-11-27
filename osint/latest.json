@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T00:01Z",
+  "generated_utc": "2026-11-27T02:01Z",
   "version": 4.2,
   "list": "brak",
   "plan": null,
@@ -11,7 +11,7 @@
     "(from:DowOperSZ OR from:RCB_RP)": 0,
     "(from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
     "(from:PolskaPolicja OR from:PAPinformacje)": 0,
-    "(from:LukaszBok OR from:FaytuksNetwork)": 2
+    "(from:LukaszBok OR from:FaytuksNetwork)": 0
   },
   "error": "brak listy",
   "items": []
