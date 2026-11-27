@@ -1,64 +1,53 @@
 {
-  "generated_utc": "2026-11-27T21:07Z",
+  "generated_utc": "2026-11-27T22:06Z",
   "version": 4.0,
   "list": "brak",
-  "groups_checked": [],
+  "groups_checked": ["fallback_officials", "fallback_media"],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 0,
-    "(from:rmf24pl OR from:tvn24)": 10,
-    "from:rmf24pl": 7,
-    "from:tvn24": 2
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 5,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 1,
+    "(from:rmf24pl OR from:tvn24)": 4,
+    "from:DowOperSZ": 0,
+    "from:RCB_RP": 0,
+    "from:PolskaPolicja": 0
   },
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2126413319057682823",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T20:30Z",
-      "text": "Korupcja w urzędzie wojewódzkim! 12 osób zatrzymanych",
-      "category": "bezpieczeństwo",
+      "post_id": "2126436136289538283",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T22:00Z",
+      "text": "Po wspólnej kolacji w Mar-a-Lago i rozmowach szefa NATO z Trumpem uzgodniono wspólne oświadczenie, w którym pojawia się bardzo istotne zdanie: 'Rozmawialiśmy także o znaczeniu tego, by Rosja unikała działań, które w sposób zamierzony lub niezamierzony rozszerzają wojnę'. Tymczasem Donald Trump opublikował w swoich mediach społecznościowych, jak mogłoby się wydawać, to samo oświadczenie, ale do tego samego zdania, oprócz Rosji, dodał Ukrainę.",
+      "category": "polityka",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Polska",
-      "media": "wideo",
-      "cluster": "korupcja-urzad-wojewodzki"
+      "location": "Europa",
+      "media": "zdjęcie",
+      "cluster": "oswiadczenie-nato-trump-rosja-ukraina"
     },
     {
-      "post_id": "2126410001116004669",
+      "post_id": "2126419803548139905",
       "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T20:17Z",
-      "text": "Groźny wypadek na Podkarpaciu. Auto wpadło do rzeki, dwie osoby ranne https://www.rmf24.pl/regiony/rzeszow/news-grozny-wypadek-na-podkarpaciu-auto-wpadlo-do-rzeki-dwie-osob,nIdn,1028060",
-      "category": "katastrofa",
+      "posted_utc": "2026-11-27T20:56Z",
+      "text": "Włosi przyłapali Zełenskiego na fałszu. Prezydent Ukrainy musiał się tłumaczyć Meloni https://www.rmf24.pl/fakty/swiat/news-wlosi-przylapali-zelenskiego-na-falszu-prezydent-ukrainy-mus,nIdn,1028062",
+      "category": "wojna",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Podkarpacie, Polska",
-      "cluster": "wypadek-podkarpacie"
+      "location": "Europa",
+      "cluster": "zelenski-meloni"
     },
     {
-      "post_id": "2126405842874380509",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T20:00Z",
-      "text": "Prezydent Krakowa Łukasz Gibała poinformował w piątek po południu, że na prośbę komendanta miejskiego podjął decyzję o przekazaniu krakowskiej policji 200 tys. zł. Środki mają być przeznaczone na zakup kamizelek i zestawów ratowniczych dla policjantów.",
-      "category": "bezpieczeństwo",
+      "post_id": "2126430303757664756",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-27T21:37Z",
+      "text": "Były premier, a obecnie lider Rozwoju Plus Mateusz Morawiecki spotkał się z byłym prezydentem Andrzejem Dudą. O czym rozmawiali? Według Morawieckiego o 'polskich sprawach', ale szczegóły nie są znane.",
+      "category": "polityka",
       "urgency_hint": "dziennik",
       "confidence": "średnia",
-      "location": "Kraków, Polska",
-      "media": "wideo"
-    },
-    {
-      "post_id": "2126404360905342998",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T19:54Z",
-      "text": "Pożar w centrum Karpacza. Ogień objął cały budynek https://www.rmf24.pl/regiony/wroclaw/news-pozar-w-centrum-karpacza-ogien-objal-caly-budynek,nIdn,1028055",
-      "category": "katastrofa",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Karpacz, Polska",
-      "cluster": "pozar-karpacz"
+      "location": "Polska"
     }
   ]
 }
