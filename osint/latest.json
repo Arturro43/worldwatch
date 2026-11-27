@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T20:06Z",
+  "generated_utc": "2026-11-27T21:07Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": [],
@@ -8,13 +8,36 @@
   "searches": {
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
     "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 2,
+    "(from:PolskaPolicja OR from:PAPinformacje)": 0,
     "(from:rmf24pl OR from:tvn24)": 10,
     "from:rmf24pl": 7,
-    "from:tvn24": 3
+    "from:tvn24": 2
   },
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2126413319057682823",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T20:30Z",
+      "text": "Korupcja w urzędzie wojewódzkim! 12 osób zatrzymanych",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Polska",
+      "media": "wideo",
+      "cluster": "korupcja-urzad-wojewodzki"
+    },
+    {
+      "post_id": "2126410001116004669",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-27T20:17Z",
+      "text": "Groźny wypadek na Podkarpaciu. Auto wpadło do rzeki, dwie osoby ranne https://www.rmf24.pl/regiony/rzeszow/news-grozny-wypadek-na-podkarpaciu-auto-wpadlo-do-rzeki-dwie-osob,nIdn,1028060",
+      "category": "katastrofa",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Podkarpacie, Polska",
+      "cluster": "wypadek-podkarpacie"
+    },
     {
       "post_id": "2126405842874380509",
       "handle": "rmf24pl",
@@ -23,7 +46,8 @@
       "category": "bezpieczeństwo",
       "urgency_hint": "dziennik",
       "confidence": "średnia",
-      "location": "Kraków, Polska"
+      "location": "Kraków, Polska",
+      "media": "wideo"
     },
     {
       "post_id": "2126404360905342998",
@@ -35,16 +59,6 @@
       "confidence": "średnia",
       "location": "Karpacz, Polska",
       "cluster": "pozar-karpacz"
-    },
-    {
-      "post_id": "2126391001426063729",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T19:01Z",
-      "text": "Odwołano wszystkie loty i wstrzymano sprzedaż biletów. Te linie lotnicze ogłosiły upadłość https://www.rmf24.pl/fakty/swiat/news-odwolano-wszystkie-loty-i-wstrzymano-sprzedaz-biletow-te-lin,nIdn,1028051",
-      "category": "lotnictwo",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "cluster": "upadlosc-linii-lotniczych"
     }
   ]
 }
