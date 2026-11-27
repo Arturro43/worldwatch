@@ -1,53 +1,18 @@
 {
-  "generated_utc": "2026-11-27T22:06Z",
-  "version": 4.0,
+  "generated_utc": "2026-11-27T23:02Z",
+  "version": 4.2,
   "list": "brak",
-  "groups_checked": ["fallback_officials", "fallback_media"],
-  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
+  "plan": null,
+  "calls": 4,
+  "groups_checked": ["(from:DowOperSZ OR from:RCB_RP)", "(from:MON_GOV_PL OR from:Straz_Graniczna)", "(from:PolskaPolicja OR from:PAPinformacje)", "(from:LukaszBok OR from:FaytuksNetwork)"],
+  "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "LukaszBok", "FaytuksNetwork"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)": 5,
-    "(from:PolskaPolicja OR from:PAPinformacje)": 1,
-    "(from:rmf24pl OR from:tvn24)": 4,
-    "from:DowOperSZ": 0,
-    "from:RCB_RP": 0,
-    "from:PolskaPolicja": 0
+    "(from:DowOperSZ OR from:RCB_RP) within_time:75m -filter:replies": 0,
+    "(from:MON_GOV_PL OR from:Straz_Graniczna) within_time:75m -filter:replies": 0,
+    "(from:PolskaPolicja OR from:PAPinformacje) within_time:75m -filter:replies": 0,
+    "(from:LukaszBok OR from:FaytuksNetwork) within_time:75m -filter:replies": 0
   },
   "error": "brak listy",
-  "items": [
-    {
-      "post_id": "2126436136289538283",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T22:00Z",
-      "text": "Po wspólnej kolacji w Mar-a-Lago i rozmowach szefa NATO z Trumpem uzgodniono wspólne oświadczenie, w którym pojawia się bardzo istotne zdanie: 'Rozmawialiśmy także o znaczeniu tego, by Rosja unikała działań, które w sposób zamierzony lub niezamierzony rozszerzają wojnę'. Tymczasem Donald Trump opublikował w swoich mediach społecznościowych, jak mogłoby się wydawać, to samo oświadczenie, ale do tego samego zdania, oprócz Rosji, dodał Ukrainę.",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Europa",
-      "media": "zdjęcie",
-      "cluster": "oswiadczenie-nato-trump-rosja-ukraina"
-    },
-    {
-      "post_id": "2126419803548139905",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-27T20:56Z",
-      "text": "Włosi przyłapali Zełenskiego na fałszu. Prezydent Ukrainy musiał się tłumaczyć Meloni https://www.rmf24.pl/fakty/swiat/news-wlosi-przylapali-zelenskiego-na-falszu-prezydent-ukrainy-mus,nIdn,1028062",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Europa",
-      "cluster": "zelenski-meloni"
-    },
-    {
-      "post_id": "2126430303757664756",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-27T21:37Z",
-      "text": "Były premier, a obecnie lider Rozwoju Plus Mateusz Morawiecki spotkał się z byłym prezydentem Andrzejem Dudą. O czym rozmawiali? Według Morawieckiego o 'polskich sprawach', ale szczegóły nie są znane.",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Polska"
-    }
-  ]
+  "items": []
 }
