@@ -1,25 +1,38 @@
 {
-  "generated_utc": "2026-11-28T17:08Z",
+  "generated_utc": "2026-11-28T18:06Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": ["(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)", "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)"],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna) within_time:75m -filter:replies": 2,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:75m -filter:replies": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje) within_time:75m -filter:replies": 0,
-    "(from:rmf24pl OR from:tvn24) within_time:75m -filter:replies": 5,
-    "from:rmf24pl within_time:75m -filter:replies": 4,
-    "from:tvn24 within_time:75m -filter:replies": 1,
-    "from:DowOperSZ within_time:75m -filter:replies": 0,
-    "from:RCB_RP within_time:75m -filter:replies": 0,
-    "from:Straz_Graniczna within_time:75m -filter:replies": 0,
-    "from:PolskaPolicja within_time:75m -filter:replies": 0,
-    "from:PAPinformacje within_time:75m -filter:replies": 0
+    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna) within_time:75m -filter:replies": 0,
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:75m -filter:replies": 5
   },
   "error": "brak listy",
   "items": [
+    {
+      "post_id": "2126739183997944276",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-28T18:05Z",
+      "text": "Drugi raz w ciągu tygodnia rafineria w Nowoszachtyńsku była celem ukraińskiego ataku dronowego. https://tvn24.pl/swiat/ukraina-zaatakowala-kolejny-raz-te-sama-rafinerie-w-rosji-st9362884",
+      "category": "wojna",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Rosja",
+      "cluster": "atak-dronowy-rafineria-nowoszachtynsk"
+    },
+    {
+      "post_id": "2126734883988889713",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-28T17:48Z",
+      "text": "Rosjanie zaalarmowani. Samolot NATO w pobliżu Królewca https://www.rmf24.pl/fakty/swiat/news-rosjanie-zaalarmowani-samolot-nato-w-poblizu-krolewca,nIdn,1028119",
+      "category": "bezpieczeństwo",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "location": "Kaliningrad",
+      "cluster": "samolot-nato-kaliningrad"
+    },
     {
       "post_id": "2126720836207870003",
       "handle": "tvn24",
