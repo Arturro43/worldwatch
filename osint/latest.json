@@ -1,90 +1,35 @@
 {
-  "generated_utc": "2026-11-28T16:09Z",
+  "generated_utc": "2026-11-28T17:08Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": ["(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)", "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)"],
   "handles_checked": ["DowOperSZ", "RCB_RP", "MON_GOV_PL", "Straz_Graniczna", "PolskaPolicja", "PAPinformacje", "rmf24pl", "tvn24"],
   "handles_not_checked": [],
   "searches": {
-    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna) within_time:135m -filter:replies": 2,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:135m -filter:replies": 10,
-    "(from:PolskaPolicja OR from:PAPinformacje) within_time:135m -filter:replies": 1,
-    "(from:rmf24pl OR from:tvn24) within_time:135m -filter:replies": 10,
-    "from:rmf24pl within_time:135m -filter:replies": 8,
-    "from:tvn24 within_time:135m -filter:replies": 7
+    "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna) within_time:75m -filter:replies": 2,
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:75m -filter:replies": 10,
+    "(from:PolskaPolicja OR from:PAPinformacje) within_time:75m -filter:replies": 0,
+    "(from:rmf24pl OR from:tvn24) within_time:75m -filter:replies": 5,
+    "from:rmf24pl within_time:75m -filter:replies": 4,
+    "from:tvn24 within_time:75m -filter:replies": 1,
+    "from:DowOperSZ within_time:75m -filter:replies": 0,
+    "from:RCB_RP within_time:75m -filter:replies": 0,
+    "from:Straz_Graniczna within_time:75m -filter:replies": 0,
+    "from:PolskaPolicja within_time:75m -filter:replies": 0,
+    "from:PAPinformacje within_time:75m -filter:replies": 0
   },
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2126696443482112330",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-28T15:15Z",
-      "text": "CICHANOUSKA OTWORZYŁA BIURO W WARSZAWIE! SYMBOLICZNE MIEJSCE",
-      "category": "polityka",
-      "urgency_hint": "ważne",
-      "confidence": "średnia",
-      "location": "Warszawa",
-      "media": "wideo",
-      "cluster": "cichanouska-biuro-warszawa"
-    },
-    {
-      "post_id": "2126691307405938995",
+      "post_id": "2126720836207870003",
       "handle": "tvn24",
-      "posted_utc": "2026-11-28T14:54Z",
-      "text": "W Tiranie, stolicy Albanii, doszło w sobotę do zamieszek podczas protestu. Demonstranci obrzucili policję kamieniami i koktajlami Mołotowa. https://tvn24.pl/swiat/gwaltowne-zamieszki-podczas-protestu-w-albanii-doszlo-do-starc-z-policja-st9362739",
-      "category": "bezpieczeństwo",
-      "urgency_hint": "dziennik",
-      "confidence": "średnia",
-      "location": "Tirana, Albania",
-      "cluster": "zamieszki-tirana"
-    },
-    {
-      "post_id": "2126686558765953318",
-      "handle": "tvn24",
-      "posted_utc": "2026-11-28T14:36Z",
-      "text": "Wołodymyr Zełenski chce, aby Most Krymski został całkowicie zburzony - powiedział dziennikowi \"The Telegraph\" jeden z ukraińskich wojskowych. https://tvn24.pl/swiat/media-wolodymyr-zelenski-chce-calkowitego-zniszczenia-mostu-krymskiego-ukraina-planuje-ataki-st9362545",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Most Krymski",
-      "cluster": "zelenski-most-krymski",
-      "corroborated_by": ["rmf24pl"]
-    },
-    {
-      "post_id": "2126685189061669364",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-28T14:30Z",
-      "text": "Zełenski wydał rozkaz. Ukraina chce całkowicie zniszczyć Most Krymski https://www.rmf24.pl/fakty/swiat/news-zelenski-wydal-rozkaz-ukraina-chce-calkowicie-zniszczyc-most,nIdn,1028105",
-      "category": "wojna",
-      "urgency_hint": "ważne",
-      "confidence": "wysoka",
-      "location": "Most Krymski",
-      "cluster": "zelenski-most-krymski",
-      "corroborated_by": ["tvn24"]
-    },
-    {
-      "post_id": "2126685078482829513",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-28T14:30Z",
-      "text": "Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia pierwszego stopnia przed silnym mrozem oraz zamieciami śnieżnymi dla południowych regionów Polski. W najbliższych dniach mieszkańcy czterech województw muszą przygotować się na wyjątkowo trudne warunki pogodowe.",
+      "posted_utc": "2026-11-28T16:52Z",
+      "text": "Siły zbrojne Mjanmy zbombardowały dom, w którym odbywało się wesele. Zginęło 21 osób, w tym pięcioro dzieci, a ponad 40 osób zostało rannych. https://tvn24.pl/swiat/mjanma-weselnicy-zabici-przez-sily-rzadowe-zginelo-21-osob-w-tym-piecioro-dzieci-st9362833",
       "category": "katastrofa",
       "urgency_hint": "ważne",
       "confidence": "średnia",
-      "location": "Polska południowa",
-      "media": "wideo",
-      "cluster": "ostrzezenia-imigw-mroz"
-    },
-    {
-      "post_id": "2126684251814863015",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-28T14:26Z",
-      "text": "Sąd Apelacyjny w Warszawie oddalił zażalenie stołecznego ratusza na decyzję sądu okręgowego uchylającą odmowę przedłużenia zgromadzenia przed TK. (PAP)",
-      "category": "polityka",
-      "urgency_hint": "dziennik",
-      "confidence": "wysoka",
-      "location": "Warszawa",
-      "media": "wideo",
-      "cluster": "protest-tk-sad"
+      "location": "Mjanma",
+      "cluster": "mjanma-bombardowanie-wesele"
     }
   ]
 }
