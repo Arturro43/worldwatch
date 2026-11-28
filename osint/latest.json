@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-28T12:08Z",
+  "generated_utc": "2026-11-28T14:11Z",
   "version": 4.0,
   "list": "brak",
   "groups_checked": ["(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna)", "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24)"],
@@ -7,32 +7,67 @@
   "handles_not_checked": [],
   "searches": {
     "(from:DowOperSZ OR from:RCB_RP OR from:MON_GOV_PL OR from:Straz_Graniczna) within_time:135m -filter:replies": 0,
-    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:135m -filter:replies": 4
+    "(from:PolskaPolicja OR from:PAPinformacje OR from:rmf24pl OR from:tvn24) within_time:135m -filter:replies": 10,
+    "(from:PolskaPolicja OR from:PAPinformacje) within_time:135m -filter:replies": 1,
+    "(from:rmf24pl OR from:tvn24) within_time:135m -filter:replies": 10,
+    "from:rmf24pl within_time:135m -filter:replies": 8,
+    "from:tvn24 within_time:135m -filter:replies": 10
   },
   "error": "brak listy",
   "items": [
     {
-      "post_id": "2126643788328349744",
-      "handle": "PAPinformacje",
-      "posted_utc": "2026-11-28T11:46Z",
-      "text": "IMGW ostrzega przed silnym mrozem. Temperatura nawet -17 st. C #PAPinformacje https://www.pap.pl/aktualnosci/imgw-ostrzega-przed-silnym-mrozem-temperatura-nawet-17-st-c",
-      "category": "inne",
+      "post_id": "2126672665872093585",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-28T13:40Z",
+      "text": "Masakra na weselu. W nalocie zginęło co najmniej 17 osób https://www.rmf24.pl/fakty/swiat/news-masakra-na-weselu-w-nalocie-zginelo-co-najmniej-17-osob,nIdn,1028103",
+      "category": "wojna",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "mroz-imgw-2026-11-28"
+      "cluster": "masakra-wesele-nalot"
     },
     {
-      "post_id": "2126643968524136901",
-      "handle": "rmf24pl",
-      "posted_utc": "2026-11-28T11:46Z",
-      "text": "Silny mróz i zamiecie śnieżne. Ostrzeżenia IMGW dla czterech województw https://www.rmf24.pl/fakty/pogoda/news-silny-mroz-i-zamiecie-sniezne-ostrzezenia-imgw-dla-czterech-,nIdn,1028091",
-      "category": "inne",
+      "post_id": "2126662758699503654",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-28T13:01Z",
+      "text": "Co najmniej 10 uczniów zginęło, a 110 innych osób zostało rannych w wybuchu niedaleko szkoły we wschodniej części Afganistanu - przekazała BBC. https://tvn24.pl/swiat/afganistan-wybuch-niedaleko-szkoly-nie-zyja-uczniowie-rannych-ponad-100-osob-st9362505",
+      "category": "katastrofa",
       "urgency_hint": "ważne",
       "confidence": "wysoka",
-      "location": "Polska",
-      "cluster": "mroz-imgw-2026-11-28",
-      "corroborated_by": ["PAPinformacje"]
+      "location": "Afganistan",
+      "cluster": "wybuch-szkola-afganistan"
+    },
+    {
+      "post_id": "2126662489827930509",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-28T13:00Z",
+      "text": "EKSPLOZJE NA STACJI PALIW, 3 SAMOCHODY STANĘŁY W OGNIU",
+      "category": "katastrofa",
+      "urgency_hint": "ważne",
+      "confidence": "średnia",
+      "media": "wideo",
+      "cluster": "eksplozje-stacja-paliw"
+    },
+    {
+      "post_id": "2126662489353891941",
+      "handle": "tvn24",
+      "posted_utc": "2026-11-28T13:00Z",
+      "text": "Dwie osoby, w tym półtoraroczne dziecko, zostały poszkodowane w pożarze domku letniskowego w miejscowości Lutom w województwie pomorskim. https://tvn24.pl/trojmiasto/lutom-pozar-domku-letniskowego-wsrod-poszkodowanych-poltoraroczne-dziecko-st9362409",
+      "category": "katastrofa",
+      "urgency_hint": "dziennik",
+      "confidence": "wysoka",
+      "location": "Lutom, woj. pomorskie",
+      "cluster": "pozar-lutom"
+    },
+    {
+      "post_id": "2126658803869405243",
+      "handle": "rmf24pl",
+      "posted_utc": "2026-11-28T12:45Z",
+      "text": "Awaria w Gdańsku. 120 budynków bez ogrzewania i ciepłej wody https://www.rmf24.pl/regiony/trojmiasto/news-awaria-w-gdansku-120-budynkow-bez-ogrzewania-i-cieplej-wody,nIdn,1028097",
+      "category": "infrastruktura",
+      "urgency_hint": "ważne",
+      "confidence": "wysoka",
+      "location": "Gdańsk",
+      "cluster": "awaria-ogrzewanie-gdansk"
     }
   ]
 }
